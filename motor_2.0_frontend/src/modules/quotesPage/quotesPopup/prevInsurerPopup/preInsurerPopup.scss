@@ -1,0 +1,164 @@
+.yesNoToggle {
+	justify-content: "Center";
+	margin-right: "50px !important;";
+}
+
+.vehRadioWrap {
+	float: left;
+	width: 100%;
+	margin: 0 0 20px;
+	overflow: hidden;
+}
+[type="checkbox"]:checked,
+[type="checkbox"]:not(:checked),
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+	position: absolute;
+	left: -9999px;
+	width: 0;
+	height: 0;
+	visibility: hidden;
+}
+.vehRadioWrap input {
+	position: absolute !important;
+	clip: rect(0, 0, 0, 0);
+	height: 1px;
+	width: 1px;
+	border: 0;
+	overflow: hidden;
+}
+input[type="checkbox"],
+input[type="radio"] {
+	margin: 4px 0 0;
+	margin-top: 1px\9;
+	line-height: normal;
+}
+input {
+	padding: 10px;
+	width: 100%;
+	font-size: 17px;
+	border: 1px solid #d4d5d9;
+	// border: 1px solid #00000087;
+	box-shadow: none !important;
+}
+
+.vehRadioWrap.ncsPercentCheck label {
+	height: 40px;
+	width: 50px;
+	margin-right: 11px;
+	padding: 11px 0;
+	border-radius: 2px;
+	@media screen and (max-width: 420px) and (min-width: 320px) {
+		margin-top: 10px;
+	}
+}
+.vehRadioWrap label {
+	height: 32px;
+	width: 80px;
+	background-color: #e4e4e4;
+	color: #333;
+	border: solid 1px transparent !important;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+	padding: 6px 0;
+	margin-right: 12px;
+	margin-bottom: 0;
+	border-radius: 8px;
+	font-weight: normal;
+	transition: all 0.1s ease-in-out;
+}
+:checked + label {
+	border: solid 1px transparent !important;
+}
+[type="checkbox"]:checked,
+[type="checkbox"]:not(:checked),
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+	position: absolute;
+	left: -9999px;
+	width: 0;
+	height: 0;
+	visibility: hidden;
+}
+.vehRadioWrap input {
+	position: absolute !important;
+	clip: rect(0, 0, 0, 0);
+	height: 1px;
+	width: 1px;
+	border: 0;
+	overflow: hidden;
+}
+
+// .ncbForm {
+// 	.btn-success:hover {
+// 		color: #fff;
+// 		background-color: $color-primary;
+// 		border-color: $color-primary;
+// 	}
+// 	.btn-outline-success {
+// 		color: $color-primary;
+// 		border-color: $color-primary;
+// 	}
+// 	.btn-success:not(:disabled):not(.disabled).active,
+// 	.btn-success:not(:disabled):not(.disabled):active,
+// 	.show > .btn-success.dropdown-toggle {
+// 		color: #fff;
+// 		background-color: $color-primary;
+// 		border-color: $color-primary;
+// 	}
+// 	.btn-success:not(:disabled):not(.disabled).active:focus,
+// 	.btn-success:not(:disabled):not(.disabled):active:focus,
+// 	.show > .btn-success.dropdown-toggle:focus {
+// 		box-shadow: 0 0 0 0.2rem $color-primary;
+// 	}
+// 	.btn-success {
+// 		color: #fff;
+// 		background-color: $color-primary;
+// 		border-color: $color-primary;
+// 	}
+// 	.btn-outline-success:hover {
+// 		color: #fff;
+// 		background-color: $color-primary;
+// 		border-color: $color-primary;
+// 	}
+// }
+
+.dateTimeExpiry {
+	.react-datepicker {
+		position: absolute;
+		left: 52px;
+		.react-datepicker__month-container {
+			zoom: 1.1 !important;
+		}
+	}
+}
+.ncbWrapPrev {
+	.vehRadioWrap input:checked + label {
+		// font-family: "Inter-SemiBold";
+		//	background-color: #28a745;
+		color: #fff;
+		box-shadow: none;
+		border: none;
+	}
+	.vehRadioWrap.ncsPercentCheck label {
+		margin-top: 11px;
+	}
+}
+.ncbColConatinerPrevPolicy {
+	width: 100%;
+	@media (max-width: 767px) {
+		width: unset;
+	}
+}
+.single-date-picker {
+	@media only screen and (max-width: 520px) and (min-width: 420px) {
+		left: 10%;
+	}
+	@media only screen and (max-width: 580px) and (min-width: 521px) {
+		left: 16%;
+	}
+	@media only screen and (max-width: 767px) and (min-width: 581px) {
+		left: 25%;
+	}
+}

@@ -1,0 +1,159 @@
+.card-style {
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1),
+    2px 4px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  //border: 4px solid rgb(173, 18, 18) !important;
+  background: url(../../assets/img/svgErrorImg.png);
+  background-repeat: no-repeat;
+  background-size: 120px;
+  background-position: bottom right;
+}
+
+.error-head {
+  /* color: rgb(173, 18, 18); */
+  color: black;
+}
+
+.error-line {
+  font-size: 1.2rem;
+  /* color: rgb(209, 21, 21); */
+  /* color: rgb(173, 18, 18); */
+  color: black;
+}
+.error-list {
+  font-size: 0.92rem;
+  color: #000000;
+  margin-top: 0px;
+  width: 100%;
+  overflow: hidden;
+}
+.error-name {
+  text-transform: uppercase;
+  /* color: rgb(173, 18, 18); */
+  color: black;
+  font-size: 0.95rem;
+}
+
+@media screen and (max-width: 1290px) {
+}
+
+@media screen and (max-width: 990px) {
+  .tabs {
+    top: 0px !important;
+    left: 66%;
+  }
+}
+
+@media (max-width: 768px) {
+  .error-head {
+    margin-top: 45px;
+    font-size: 1rem;
+  }
+  .error-line {
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+  .error-list {
+    font-size: 0.74rem;
+    margin-top: 15px
+  }
+  .error-img {
+    width: 50px;
+  }
+  .card-style {
+    background-size: 70px;
+  }
+  .error-name {
+    font-size: 0.78rem;
+  }
+}
+
+.switchMini {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 41px;
+  height: 14px;
+  top: 3.4px;
+  padding: 3px;
+  border-radius: 18px;
+  cursor: pointer;
+}
+
+.switchMini-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  
+}
+
+.switchMini-label {
+  position: relative;
+  display: block;
+  height: inherit;
+  
+  border: 0.5px solid black;
+  font-family: Helvetica Neue;
+  font-size: 8px;
+  text-transform: uppercase;
+  background: #fff;
+  border-radius: inherit;
+  box-shadow: #fff 0 0 2px 1px inset;
+  transition: 0.15s ease-out;
+  transition-property: opacity background;
+  
+
+  &:before,
+  &:after {
+    position: absolute;
+    top: 50%;
+    margin-top: -0.5em;
+    line-height: 1;
+    transition: inherit;
+  }
+
+  &:before {
+    content: attr(data-off);
+    right: 6px;
+    color: #000000;
+    text-shadow: 0 1px rgba(white, 0.5);
+  }
+
+  &:after {
+    content: attr(data-on);
+    left: 4px;
+    color: white;
+    text-shadow: 0 1px rgba(black, 0.2);
+    opacity: 0;
+  }
+
+  .switchMini-input:checked ~ & {
+    background: black;
+    box-shadow: black 0 0 2px 1px inset;
+    &:before {
+      opacity: 0;
+    }
+    &:after {
+      opacity: 1;
+    }
+  }
+}
+
+.switchMini-handle {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 12px;
+  height: 12px;
+  border-radius: 10px;
+  background: black;
+  background: linear-gradient top, #000, #000;
+  transition: left 0.15s ease-out;
+
+  .switchMini-input:checked ~ & {
+    left: 25px;
+    background: white;
+    background: linear-gradient top, #f7f7f7, white;
+  }
+}

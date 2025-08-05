@@ -1,0 +1,128 @@
+@media only screen and (max-width: 767px) {
+	.compare-container {
+		align-items: flex-start;
+		height: 180px;
+		display: flex;
+	}
+	.compare-container button {
+		position: absolute;
+		width: 100%;
+		bottom: 11px;
+	}
+	.quote-page__quote-cards--on-compare {
+		z-index: 100000;
+	}
+}
+
+@media(max-width: 1175px) {
+	.closeBtnCompare {
+		// display: none;
+		position: absolute !important;
+		top: 0 !important;
+		left: 100% !important;
+		margin-left: -20px;
+	}
+}
+
+.quote-page__quote-cards--on-compare {
+	position: relative;
+	z-index: 1000;
+}
+
+.compare-container-wrap {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	z-index: 3;
+	height: 100px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+	border-top: solid 1px #e3e4e8;
+	// backdrop-filter: blur(8px) !important;
+	background: #f3f3f3f3;
+
+	& .compare-container {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 1110px;
+		margin: 0 auto;
+		padding: 16px 16px;
+
+		& .compare-boxes {
+			display: flex;
+			gap: 10px
+		}
+
+		& button {
+			margin-left: 20px;
+			width: 200px;
+			height: 54px;
+			border-radius: 4px;
+
+			text-transform: uppercase;
+		}
+
+		& .btn--disabled {
+			border: solid 1px #dcdde0;
+			background-color: #dcdde0;
+			color: #969799;
+		}
+	}
+
+	@media screen and (min-width: 768px) and (max-width: 1177px) {
+		& .compare-container {
+			width: 710px;
+			padding: 20px 0;
+			& button {
+				width: 150px;
+				margin: 8px 0;
+				height: 54px;
+				font-size: 16px;
+				line-height: 18px;
+				text-align: center;
+				padding: 0;
+				margin-right: 4px;
+			}
+		}
+	}
+}
+
+.closeBtnCompare {
+	position: relative;
+	top: -22px;
+	left: 154px;
+}
+
+@media (max-width: 767px) {
+	.quote-page__quote-cards--on-compare {
+		margin-top: unset !important;
+	}
+	.compare-container-wrap {
+		height: 194px !important;
+		.compare-container {
+			width: 100%;
+			padding: 32px 15px 16px;
+			align-items: flex-start;
+			& button {
+				width: 93%;
+				margin-left: 0;
+
+				height: 56px;
+				font-size: 14px;
+			}
+		}
+		.compare-boxes {
+			width: 100%;
+			gap: 10px
+		}
+		.compare-box {
+			margin-right: 0;
+			height: 58px;
+			width: calc(50% - 6px);
+		}
+	}
+	.compare-box__inside {
+		font-size: 12px !important;
+	}
+}

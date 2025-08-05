@@ -1,0 +1,27 @@
+.my-modal{
+    max-width:850px !important;
+    margin: 65px auto !important;
+}
+.my-modal > .modal-content{
+    border-radius: 15px !important;
+    border: none !important;
+}
+
+.otpSentMsg{
+    color: #000;
+    font-size: 14.5px;
+    transition: visibility 1s ease-in-out,opacity 0.7s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+    margin-left: 15px;
+  }
+  .resendShow{
+    visibility: visible;
+    opacity: 1;
+  }
+
+  @media (max-width: 991px) {
+    .otpSentMsg{
+        margin-left:0px !important;
+    }
+}

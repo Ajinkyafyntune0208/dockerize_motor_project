@@ -1,0 +1,142 @@
+.list-group-item {
+    /* margin-top: 10px; */
+    background: var(--bs-success);
+    /* color: #fff; */
+    text-align: center;
+}
+
+#select-list .list-group-item {
+    background: #007bff;
+    margin-top: 0px;
+    color: #fff;
+    /* display: grid;
+    place-items: center; */
+    border: 1px solid #000;
+}
+
+#select-list .list-group-item .plain-text {
+    border: none;
+}
+
+#select-list,
+.operator-list,
+.function-list {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#select-list {
+    background: #007bff2e;
+    /* min-height: 50px; */
+    min-height: 20vh;
+    max-height: 60vh;
+    
+    padding: 20px;
+    overflow: scroll;
+}
+
+#select-list div {
+    width: auto;
+    padding: 0px;
+    padding: 0px 15px;
+    margin: 2px 2px;
+}
+
+.accordion-flush .accordion-item .accordion-button {
+    border-radius: 0;
+}
+
+.accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 1.25rem;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, border-radius .15s ease;
+}
+
+.plain-text {
+    background: none !important;
+    border: none
+}
+
+.plain-text input {
+    width: 50px;
+    height: auto;
+}
+
+.formula-item {
+    cursor: grab;
+}
+
+.conditional-operator-list {}
+
+.conditional-item {
+    display: flex;
+    flex-direction: row
+}
+
+.conditional-item>div {
+    padding: 10px;
+
+}
+
+.formula-title {
+    background-color: #1111119e;
+    color: #fff;
+    padding: 5px;
+}
+
+.conditional-item {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+  text-align: center;
+}
+
+#select-list .funtion-part {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 168, 127);
+}
+
+#select-list .functional-list {
+    min-width: 100px;
+
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(250, 250, 250, 0.605);
+}
+
+#select-list .conditional-item {
+    background-color:rgb(225, 138, 26)
+}
+
+.function-item {
+    padding: 0;
+}
+
+.function-item .funtion-part {
+    padding: .75rem 1.25rem;
+}
+

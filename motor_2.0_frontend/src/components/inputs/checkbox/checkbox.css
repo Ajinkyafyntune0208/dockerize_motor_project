@@ -1,0 +1,91 @@
+.filterMenuBoxCheck {
+	float: left;
+	width: 100%;
+	padding-right: 0px;
+	padding-bottom: 3px;
+}
+[type="checkbox"]:checked,
+[type="checkbox"]:not(:checked),
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+	position: absolute;
+	left: -9999px;
+	width: 0;
+	height: 0;
+	visibility: hidden;
+}
+.filterMenuBoxCheck input {
+	display: none;
+	float: left;
+	width: 18px;
+	height: 18px;
+	border: solid 1px #e3e4e8;
+	margin: 1px 8px 0 0;
+	cursor: pointer;
+}
+input[type="checkbox"],
+input[type="radio"] {
+	margin: 4px 0 0;
+	margin-top: 1px\9;
+	line-height: normal;
+}
+input {
+	padding: 10px;
+	width: 100%;
+	font-size: 17px;
+	border: 1px solid #d4d5d9;
+	/* border: 1px solid #00000087; */
+	box-shadow: none !important;
+}
+.filterMenuBoxCheck label {
+	display: inline-block;
+	position: relative;
+	/*font-family: "Inter-Medium";*/
+	font-size: 12px;
+	line-height: 17px;
+	font-weight: normal;
+	color: #6b6e71;
+	border: 1px solid #fff;
+	cursor: pointer;
+	padding-left: 35px;
+}
+label {
+	display: inline-block;
+	max-width: 100%;
+	margin-bottom: 5px;
+	font-weight: 700;
+}
+.filterMenuBoxCheck label:before {
+	border: 1px solid #d4d5d9;
+	/* border: 1px solid #00000087; */
+	border-radius: 2px;
+	content: "\00a0";
+	display: inline-block;
+	font: 14px sans-serif;
+	height: 18px;
+	margin: 0 8px 0 0;
+	padding: 1px 0 0;
+	vertical-align: top;
+	width: 18px;
+	position: absolute;
+	left: 6px;
+}
+.filterMenuBoxCheck input[type="checkbox"]:checked + label:before {
+	background-image: url(../../../assets/img/check.svg);
+	color: #fff;
+	content: "";
+	text-align: center;
+}
+.cardTooltipSvg {
+	position: absolute;
+	margin-left: 4px;
+	cursor: pointer;
+	height: 16px;
+	width: 16px;
+}
+
+@media(max-width: 767px) {
+	.filterMenuBoxCheck label:before {
+		border: 1px solid #00000087;
+	}
+}

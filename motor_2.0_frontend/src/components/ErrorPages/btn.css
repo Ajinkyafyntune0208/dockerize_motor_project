@@ -1,0 +1,15 @@
+.linkLine1 .button:focus {
+	box-shadow: none !important;
+}
+
+.linkLine1 .button {
+    outline: none !important;
+}
+
+.linkLine1 .btn:focus {
+	box-shadow: none !important;
+}
+
+.linkLine1 .btn {
+    outline: none !important;
+}

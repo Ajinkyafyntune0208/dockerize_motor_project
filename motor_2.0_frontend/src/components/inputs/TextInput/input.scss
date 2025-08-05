@@ -1,0 +1,24 @@
+.icon {
+  float: right;
+  margin-right: 6px;
+  margin-top: -20px;
+  position: relative;
+  top: 34.5px;
+  right: 20px;
+  z-index: 2;
+  font-size: 20px;
+}
+
+.hv-form-checkBoxDiv {
+  [type="checkbox"]:checked,
+  [type="checkbox"]:not(:checked),
+  [type="radio"]:checked,
+  [type="radio"]:not(:checked) {
+    position: absolute ;
+    left: unset ;
+    top: unset ;
+    visibility: visible ;
+    height: unset !important;
+    width: unset !important;
+  }
+}

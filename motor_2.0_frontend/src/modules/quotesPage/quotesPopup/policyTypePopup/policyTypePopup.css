@@ -1,0 +1,162 @@
+.homeInsuInput {
+  float: left;
+  width: 100%;
+  /* text-align: center; */
+}
+.homeInsuInputWrap {
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 100%;
+  display: inline-block;
+}
+.ratioButton:last-child,
+#applyDiscountPolicy .ratioButton:last-child {
+  margin-bottom: 0;
+}
+
+.ratioButton {
+  display: block;
+  position: relative;
+  padding-top: 15px;
+  padding-left: 24px !important;
+  margin-bottom: 0;
+  height: 44px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 100;
+  box-shadow: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.ratioButton {
+  margin-bottom: 16px;
+  padding-top: 10px;
+  padding-right: 0px;
+  height: 148px !important;
+  border: solid 1px #e3e4e8;
+  box-shadow: 0 2px 8px 3px rgb(0 0 0 / 15%);
+}
+.panel-heading {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+[type="checkbox"]:checked,
+[type="checkbox"]:not(:checked),
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+  position: absolute;
+  left: -9999px;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+.ratioButton input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.ratioButton input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  margin: 4px 0 0;
+  margin-top: 1px\9;
+  line-height: normal;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+}
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  border: 1px solid #d4d5d9;
+  /* border: 1px solid #00000087; */
+  box-shadow: none !important;
+}
+.checkmark {
+  height: 20px;
+  width: 20px;
+  top: 34px !important;
+  left: 16px !important;
+}
+.ratioButton .checkmark:after,
+.ratioButton .checkmark:after {
+  top: 3px;
+  left: 3px;
+  width: 10px;
+  height: 10px;
+}
+.ratioButton input:checked ~ .checkmark:after {
+  display: block;
+}
+.ratioButton .checkmark:after {
+  top: 4px !important;
+  left: 4px !important;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #000 !important;
+}
+.smokingTxt {
+  float: left;
+
+  font-size: 12px !important;
+  line-height: 20px;
+  padding: 19px 0;
+  margin-left: 20px;
+  display: block;
+  min-height: auto;
+}
+.valuntaryDisTxt {
+  font-size: 11px;
+  line-height: 20px;
+  text-align: left;
+  display: inline;
+  float: right;
+  width: 100%;
+  margin-top: 0px;
+  color: #808080;
+  font-weight: 400;
+}
+.radioCheckedColor {
+  background-color: #fff !important;
+  border-color: #000 !important;
+}
+.policyTypeRadio {
+  min-height: 170px;
+}
+
+@media (max-width: 768px) {
+  .policyTypeRadio {
+    min-height: 120px;
+  }
+  .checkmark {
+    top: 20px !important;
+  }
+  .smokingTxt {
+    padding-bottom: 10px !important;
+  }
+}

@@ -1,0 +1,36 @@
+.noOutLine {
+  .btn:focus,
+  .btn:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}
+.ribbon {
+  border-width: 0;
+  position: relative;
+  display: block;
+  padding: 4px 35px 7px 35px;
+  cursor: pointer;
+  &:before {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    border-left: 16px solid transparent;
+    border-right: 24px solid #fff;
+    border-top: 16px solid transparent;
+    border-bottom: 16px solid transparent;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    border-left: 24px solid #fff;
+    border-right: 16px solid transparent;
+    border-top: 16px solid transparent;
+    border-bottom: 16px solid transparent;
+  }
+}

@@ -1,0 +1,36 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class AddColumnCkycNumberInUserProposalTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::table('user_proposal', function (Blueprint $table) {
+            if ( ! Schema::hasColumn('user_proposal', 'ckyc_number')) {
+                $table->text('ckyc_number')->nullable();
+            }
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::table('user_proposal', function (Blueprint $table) {
+            if (Schema::hasColumn('user_proposal', 'ckyc_number')) {
+                $table->dropColumn('ckyc_number');
+            }
+        });
+    }
+}

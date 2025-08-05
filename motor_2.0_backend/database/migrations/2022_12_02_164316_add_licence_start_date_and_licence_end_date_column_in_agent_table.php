@@ -1,0 +1,34 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class AddLicenceStartDateAndLicenceEndDateColumnInAgentTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::table('agents', function (Blueprint $table) {
+            $table->string('licence_start_date')->nullable();
+            $table->string('licence_end_date')->nullable();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::table('agents', function (Blueprint $table) {
+            $table->dropColumn('licence_start_date');
+            $table->dropColumn('licence_end_date');
+        });
+    }
+}

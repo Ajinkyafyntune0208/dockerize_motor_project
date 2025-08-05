@@ -1,0 +1,151 @@
+// .compare-page {
+// 	&-features {
+// 		position: absolute;
+// 		// top: 124px;
+// 		top: 18px;
+// 		left: 0;
+// 		width: 292px;
+// 		padding-right: 48px;
+
+// 		&::after {
+// 			content: "";
+// 			position: absolute;
+// 			top: 0;
+// 			left: 100%;
+// 			width: 4px;
+// 			height: 100%;
+// 			background-color: transparent;
+// 			background-image: -webkit-linear-gradient(
+// 				left,
+// 				rgba(0, 0, 0, 0.06),
+// 				transparent
+// 			);
+// 			background-image: linear-gradient(
+// 				to right,
+// 				rgba(0, 0, 0, 0.06),
+// 				transparent
+// 			);
+// 			opacity: 0;
+// 		}
+
+// 		& .top-info {
+// 			font-family: "Inter-Regular";
+// 			line-height: 19px;
+// 			color: #333;
+// 			line-height: 14px;
+// 			padding: 0;
+// 			text-align: left;
+// 			& .planOptionHead {
+// 				border-bottom: none !important;
+// 				margin-right: 60px;
+// 				padding-bottom: 6px;
+// 				text-align: justify;
+// 			}
+// 			& .planOptionFName {
+// 				margin-top: 24px;
+// 				margin-bottom: 26px;
+// 				text-align: justify;
+// 			}
+// 		}
+
+// 		& .cd-features-list {
+// 			padding: 0;
+// 			list-style: none;
+
+// 			& li {
+// 				font-family: "Inter-Regular";
+// 				font-size: 14px;
+// 				line-height: 19px;
+// 				color: #333;
+
+// 				& .planOptionName {
+// 					margin-bottom: 0;
+// 					height: 39px;
+// 					overflow: hidden;
+// 					line-height: 19px;
+// 					border-bottom: 1px solid #d0d0d0;
+// 					width: 453%;
+// 					padding: 10px 0px 0px 20px;
+// 					font-weight: 300 !important;
+// 					&:last-child {
+// 					}
+// 				}
+// 			}
+// 		}
+
+// 		@media screen and (min-width: 768px) and (max-width: 1177px) {
+// 			width: 150px;
+// 			padding-right: 4px;
+
+// 			& .cd-features-list {
+// 				& li {
+// 					font-size: 10px !important;
+// 				}
+// 				& .planOptionHead {
+// 					font-size: 12px;
+// 					margin-right: 0;
+// 				}
+// 				& .planOptionName {
+// 					font-size: 10px !important;
+// 					font-weight: 300 !important;
+// 				}
+// 			}
+// 		}
+
+// 		@media screen and (max-width: 767px) {
+// 			width: 100%;
+// 			padding-right: 0;
+// 			top: 10px;
+
+// 			& .top-info .planOptionFName {
+// 				margin-top: 11px;
+// 			}
+
+// 			& .cd-features-list {
+// 				border: none;
+// 			}
+
+// 			& .cd-features-list li .planOptionName {
+// 				margin-bottom: 14px;
+// 				height: 34px;
+// 				line-height: 14px;
+// 				border-bottom: none;
+// 				width: 30%;
+// 				padding: 10px 10px 0px 0px;
+// 				&:last-child {
+// 				}
+// 			}
+// 			.longNameText {
+// 				min-height: 60px;
+// 			}
+// 		}
+// 	}
+// }
+// .compare-page .compare-products-wrap .planOptionHead {
+// 	font-size: 19px !important;
+// }
+
+// .compare-page .compare-products-wrap .planOptionFName {
+// 	font-size: 16px;
+// 	font-weight: bold;
+// 	margin-top: 35px !important;
+// }
+// .compare-page-features .cd-features-list li .planOptionName {
+// 	font-size: 14px;
+// 	font-weight: bold;
+// }
+
+// @media (max-width: 768px) {
+// 	.compare-page .compare-products-wrap .planOptionHead {
+// 		font-size: 11px !important;
+// 	}
+
+// 	.compare-page .compare-products-wrap .planOptionFName {
+// 		font-size: 10px;
+// 		font-weight: bold;
+// 	}
+// 	.compare-page-features .cd-features-list li .planOptionName {
+// 		font-size: 9px;
+// 		font-weight: bold;
+// 	}
+// }

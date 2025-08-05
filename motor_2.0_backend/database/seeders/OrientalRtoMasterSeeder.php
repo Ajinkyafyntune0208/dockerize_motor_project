@@ -1,0 +1,6655 @@
+<?php
+
+namespace Database\Seeders;
+
+use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
+
+class OrientalRtoMasterSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        DB::table('oriental_rto_master')->truncate();
+
+        DB::table('oriental_rto_master')->insert(
+            [
+            array(
+                "rto_code" => "AN-01",
+                "rto_description" => "PORT BLAIR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AP-01",
+                "rto_description" => "Mancherial",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AP-02",
+                "rto_description" => "Anantapur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AP-03",
+                "rto_description" => "Chittoor",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AP-04",
+                "rto_description" => "Cuddapah",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AP-05",
+                "rto_description" => "Kakinada",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AP-07",
+                "rto_description" => "Guntur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AP-09",
+                "rto_description" => "Hyderabad  Central",
+                "rto_zone" => "35",
+            ),
+            array(
+                "rto_code" => "AP-10",
+                "rto_description" => "Secunderabad",
+                "rto_zone" => "35",
+            ),
+            array(
+                "rto_code" => "AP-11",
+                "rto_description" => "Hyderabad East.",
+                "rto_zone" => "35",
+            ),
+            array(
+                "rto_code" => "AP-12",
+                "rto_description" => "Hyderabad North",
+                "rto_zone" => "35",
+            ),
+            array(
+                "rto_code" => "AP-13",
+                "rto_description" => "Hyderabad West",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AP-15",
+                "rto_description" => "Karimnagar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AP-16",
+                "rto_description" => "Vijayawada",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AP-20",
+                "rto_description" => "Khammam",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AP-21",
+                "rto_description" => "Kurnool",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AP-22",
+                "rto_description" => "Mahaboonanagar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AP-23",
+                "rto_description" => "Sangareddy",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AP-24",
+                "rto_description" => "Nalgonda",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AP-25",
+                "rto_description" => "Nizamabad",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AP-26",
+                "rto_description" => "Nellore",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AP-27",
+                "rto_description" => "Ongole",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AP-28",
+                "rto_description" => "Rangareddy",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AP-29",
+                "rto_description" => "Uppal",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AP-30",
+                "rto_description" => "Srikakulam",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AP-31",
+                "rto_description" => "Vishakhapatanam",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AP-32",
+                "rto_description" => "Vishakhapatanam",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AP-33",
+                "rto_description" => "Vishakhapatanam",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AP-35",
+                "rto_description" => "Vizianagaram",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AP-36",
+                "rto_description" => "Warangal",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AP-37",
+                "rto_description" => "Eluru",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AR-01",
+                "rto_description" => "Papum Pare",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AR-02",
+                "rto_description" => "YUPIA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AR-03",
+                "rto_description" => "Tawang",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AR-04",
+                "rto_description" => "West Kameng",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AR-05",
+                "rto_description" => "East Kameng",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AR-06",
+                "rto_description" => "Lower Subansiri",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AR-07",
+                "rto_description" => "Upper Subansiri",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AR-08",
+                "rto_description" => "West Siang",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AR-09",
+                "rto_description" => "East Siang",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AR-10",
+                "rto_description" => "Lower D/Valley",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AR-11",
+                "rto_description" => "Lohit",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AR-12",
+                "rto_description" => "Chanlang",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AR-13",
+                "rto_description" => "Tirap",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AR-14",
+                "rto_description" => "Upper Siang",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AR-15",
+                "rto_description" => "Kurung-Kumey",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AR-16",
+                "rto_description" => "RTO Roing",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AR-17",
+                "rto_description" => "ANJAW",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AR-18",
+                "rto_description" => "Longding",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AR-19",
+                "rto_description" => "Namsai",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AR-20",
+                "rto_description" => "DTO - NAMSAI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AS-01",
+                "rto_description" => "Guwahati",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AS-02",
+                "rto_description" => "NAGAON",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AS-03",
+                "rto_description" => "Jorhat",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AS-04",
+                "rto_description" => "Sibsagar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AS-05",
+                "rto_description" => "Golghat",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AS-06",
+                "rto_description" => "Dibrugarh",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AS-07",
+                "rto_description" => "LAKHIMPUR (ASSAM)",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AS-08",
+                "rto_description" => "Haflong",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AS-09",
+                "rto_description" => "Diphu",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AS-10",
+                "rto_description" => "Karimganj",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AS-11",
+                "rto_description" => "Silchar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AS-12",
+                "rto_description" => "TEZPUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AS-13",
+                "rto_description" => "DARANG PANBARI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AS-14",
+                "rto_description" => "Nalbari",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AS-15",
+                "rto_description" => "Barpeta",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AS-16",
+                "rto_description" => "Kokrajhar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AS-17",
+                "rto_description" => "Dhubri",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AS-18",
+                "rto_description" => "Goalpara",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AS-19",
+                "rto_description" => "Bangaigaon",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AS-21",
+                "rto_description" => "Morigaon",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AS-22",
+                "rto_description" => "DHEMAJI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AS-23",
+                "rto_description" => "Tinsukia",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AS-24",
+                "rto_description" => "Hailakandi",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AS-25",
+                "rto_description" => "Guwahati",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AS-26",
+                "rto_description" => "DTO CHIRANG",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AS-27",
+                "rto_description" => "UDALGURI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AS-28",
+                "rto_description" => "BAKSA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "AS-29",
+                "rto_description" => "CACHAR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-01",
+                "rto_description" => "Patna",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-02",
+                "rto_description" => "Gaya",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-03",
+                "rto_description" => "Arah",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-04",
+                "rto_description" => "Chapra",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-05",
+                "rto_description" => "Motihari",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-06",
+                "rto_description" => "Muzaffarpur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-07",
+                "rto_description" => "Darbangha",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-08",
+                "rto_description" => "Monghyr",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-09",
+                "rto_description" => "Begusarai",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-10",
+                "rto_description" => "Bhagalpur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-11",
+                "rto_description" => "Purnea",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-12",
+                "rto_description" => "RTO DUMKA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-13",
+                "rto_description" => "HAZARIBAGH",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-14",
+                "rto_description" => "RTO Ranchi",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-15",
+                "rto_description" => "DALTONGANG",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-16",
+                "rto_description" => "Jamshedpur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-17",
+                "rto_description" => "RTO DHANBAD",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-18",
+                "rto_description" => "CHAIBASA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-19",
+                "rto_description" => "Saharsa",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-20",
+                "rto_description" => "BOKARO STEEL CITY",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-21",
+                "rto_description" => "Bihar Sharif",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-22",
+                "rto_description" => "Bettiah",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-23",
+                "rto_description" => "RTO GIRIDIH",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-24",
+                "rto_description" => "Sasaram",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-25",
+                "rto_description" => "Jahanbad",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-26",
+                "rto_description" => "Aurangabad",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-27",
+                "rto_description" => "Nawada",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-28",
+                "rto_description" => "Gopalganj",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-29",
+                "rto_description" => "Siwan",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-30",
+                "rto_description" => "Sitamarhi",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-31",
+                "rto_description" => "Hazipur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-32",
+                "rto_description" => "Madhubani",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-33",
+                "rto_description" => "Samastipur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-34",
+                "rto_description" => "Khagaria",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-35",
+                "rto_description" => "RTO-BANKA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-36",
+                "rto_description" => "RTO GODDA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-37",
+                "rto_description" => "Kishanganj",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-38",
+                "rto_description" => "Araria",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-39",
+                "rto_description" => "Katihar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-40",
+                "rto_description" => "RTO DEOGHAR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-41",
+                "rto_description" => "LOHARDAGA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-42",
+                "rto_description" => "GUMLA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-43",
+                "rto_description" => "Madhepura",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-44",
+                "rto_description" => "Buxar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-45",
+                "rto_description" => "RTO-BHABH",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-46",
+                "rto_description" => "RTO JAMUI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-47",
+                "rto_description" => "KODARMA(BIHAR)",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-48",
+                "rto_description" => "RTO-CHATRA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-50",
+                "rto_description" => "RTO-SUPAUL",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-51",
+                "rto_description" => "Sheikhpura",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-52",
+                "rto_description" => "RTO Sheikhpura",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-53",
+                "rto_description" => "RTO Lakhisarai",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-55",
+                "rto_description" => "Sheohar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "BR-56",
+                "rto_description" => "RTO ARWAL",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "CG-02",
+                "rto_description" => "Government of Chattisgarh",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "CG-04",
+                "rto_description" => "RAIPUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "CG-05",
+                "rto_description" => "DHAMTARI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "CG-06",
+                "rto_description" => "MAHASAMUND",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "CG-07",
+                "rto_description" => "RTO DURG C.G",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "CG-08",
+                "rto_description" => "RAJNANDGAON",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "CG-09",
+                "rto_description" => "KAWARDHA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "CG-10",
+                "rto_description" => "BILASPUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "CG-11",
+                "rto_description" => "JANJGIR CHAMPA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "CG-12",
+                "rto_description" => "KORBA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "CG-13",
+                "rto_description" => "RAIGARH",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "CG-14",
+                "rto_description" => "JASHPUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "CG-15",
+                "rto_description" => "SARGUJA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "CG-16",
+                "rto_description" => "KORIA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "CG-17",
+                "rto_description" => "JAGDALPUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "CG-18",
+                "rto_description" => "DANTEWADA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "CG-19",
+                "rto_description" => "KANKER",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "CG-20",
+                "rto_description" => "BIJAPUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "CG-21",
+                "rto_description" => "NARAYANPUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "CG-22",
+                "rto_description" => "RTO Balodabazar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "CG-23",
+                "rto_description" => "RTO GARIABAND",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "CG-24",
+                "rto_description" => "RTO BALOD",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "CG-25",
+                "rto_description" => "RTO BEMETARA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "CG-26",
+                "rto_description" => "RTO SUKMA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "CG-27",
+                "rto_description" => "RTO KONDAGAON",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "CG-28",
+                "rto_description" => "RTO MUNGELI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "CG-29",
+                "rto_description" => "RTO SURAJPUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "CH-01",
+                "rto_description" => "\"Registration Authority center",
+                "rto_zone" => " South\"",
+            ),
+            array(
+                "rto_code" => "CH-02",
+                "rto_description" => "STA [UT]",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "CH-03",
+                "rto_description" => "\"Registration Authority center",
+                "rto_zone" => " East\"",
+            ),
+            array(
+                "rto_code" => "CH-04",
+                "rto_description" => "RTO CHANDIGARH",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "CH-44",
+                "rto_description" => "TEMP CHANDIGARH",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "DD-02",
+                "rto_description" => "RTO-DIU",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "DD-03",
+                "rto_description" => "DAMAN",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "DL-01",
+                "rto_description" => "North Delhi",
+                "rto_zone" => "35",
+            ),
+            array(
+                "rto_code" => "DL-02",
+                "rto_description" => "New Delhi",
+                "rto_zone" => "35",
+            ),
+            array(
+                "rto_code" => "DL-03",
+                "rto_description" => "South Delhi",
+                "rto_zone" => "35",
+            ),
+            array(
+                "rto_code" => "DL-04",
+                "rto_description" => "West Delhi",
+                "rto_zone" => "35",
+            ),
+            array(
+                "rto_code" => "DL-05",
+                "rto_description" => "North East Delhi",
+                "rto_zone" => "35",
+            ),
+            array(
+                "rto_code" => "DL-06",
+                "rto_description" => "Central Delhi",
+                "rto_zone" => "35",
+            ),
+            array(
+                "rto_code" => "DL-07",
+                "rto_description" => "East Delhi",
+                "rto_zone" => "35",
+            ),
+            array(
+                "rto_code" => "DL-08",
+                "rto_description" => "North West Delhi",
+                "rto_zone" => "35",
+            ),
+            array(
+                "rto_code" => "DL-09",
+                "rto_description" => "South West Delhi",
+                "rto_zone" => "35",
+            ),
+            array(
+                "rto_code" => "DL-10",
+                "rto_description" => "North West Delhi-II(Rohini)",
+                "rto_zone" => "35",
+            ),
+            array(
+                "rto_code" => "DL-11",
+                "rto_description" => "RTO ROHINI",
+                "rto_zone" => "35",
+            ),
+            array(
+                "rto_code" => "DL-12",
+                "rto_description" => "RTO Vasant Vihar",
+                "rto_zone" => "35",
+            ),
+            array(
+                "rto_code" => "DL-13",
+                "rto_description" => "SURAJMAL-VIHAR",
+                "rto_zone" => "35",
+            ),
+            array(
+                "rto_code" => "DL-14",
+                "rto_description" => "Sukhdev Vihar (Delhi)",
+                "rto_zone" => "35",
+            ),
+            array(
+                "rto_code" => "DN-09",
+                "rto_description" => "D & N HAVELI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GA-01",
+                "rto_description" => "North Goa",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GA-02",
+                "rto_description" => "Mapusa",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GA-03",
+                "rto_description" => "Pernem",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GA-04",
+                "rto_description" => "Bicholim",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GA-05",
+                "rto_description" => "Ponda",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GA-06",
+                "rto_description" => "Vasco Da Gama",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GA-07",
+                "rto_description" => "Panaji",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GA-08",
+                "rto_description" => "Margao",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GA-09",
+                "rto_description" => "Quepem",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GA-10",
+                "rto_description" => "Canacona",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GA-11",
+                "rto_description" => "Pernem",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GA-12",
+                "rto_description" => "Dharbandora",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GJ - 34",
+                "rto_description" => "DEVBHUMI DWARKA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GJ-01",
+                "rto_description" => "Ahmedabad",
+                "rto_zone" => "35",
+            ),
+            array(
+                "rto_code" => "GJ-02",
+                "rto_description" => "Mahsana",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GJ-03",
+                "rto_description" => "Rajkota",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GJ-04",
+                "rto_description" => "Bhavnagar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GJ-05",
+                "rto_description" => "Surat",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GJ-06",
+                "rto_description" => "Baroda",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GJ-07",
+                "rto_description" => "Nadiad",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GJ-08",
+                "rto_description" => "Palanpur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GJ-09",
+                "rto_description" => "Himmatnagar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GJ-10",
+                "rto_description" => "Jamnagar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GJ-11",
+                "rto_description" => "Junagadh",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GJ-12",
+                "rto_description" => "Bhuj",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GJ-13",
+                "rto_description" => "Surendranagar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GJ-14",
+                "rto_description" => "Amreli",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GJ-15",
+                "rto_description" => "Valsad",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GJ-16",
+                "rto_description" => "Bharuch",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GJ-17",
+                "rto_description" => "Godhra",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GJ-18",
+                "rto_description" => "Gandhinagar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GJ-19",
+                "rto_description" => "Bardoli",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GJ-20",
+                "rto_description" => "Dohad",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GJ-21",
+                "rto_description" => "Navgari",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GJ-22",
+                "rto_description" => "Narmada",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GJ-23",
+                "rto_description" => "Anand",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GJ-24",
+                "rto_description" => "Patan",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GJ-25",
+                "rto_description" => "Porbandar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GJ-26",
+                "rto_description" => "TAPI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GJ-27",
+                "rto_description" => "Vastral",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GJ-30",
+                "rto_description" => "RTO DANG",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GJ-31",
+                "rto_description" => "Aravalli- (Modasa)",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GJ-32",
+                "rto_description" => "Gir Somnath (Veraval)",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GJ-33",
+                "rto_description" => "Chhota Udaipur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GJ-34",
+                "rto_description" => "DEVBHUMI DWARKA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GJ-35",
+                "rto_description" => "RTO LUNAVADA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GJ-36",
+                "rto_description" => "RTO - Morbi",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GJ-37",
+                "rto_description" => "Khambhalia (Devbhumi Dwarka)",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GJ-38",
+                "rto_description" => "BAVLA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "GL-28",
+                "rto_description" => "Surat Wes",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-01",
+                "rto_description" => "DTO SHIMLA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-02",
+                "rto_description" => "RTO SHIMLA(TAXI)",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-03",
+                "rto_description" => "RTO Shimla",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-04",
+                "rto_description" => "RTO DHARMSHALA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-05",
+                "rto_description" => "RTO MANDI(AUTO)",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-06",
+                "rto_description" => "RTO RAMPUR BUSHAIR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-07",
+                "rto_description" => "RTO SHIMLA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-08",
+                "rto_description" => "RTO CHOPAL",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-09",
+                "rto_description" => "RTO THEOG",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-10",
+                "rto_description" => "RTO ROHRU",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-11",
+                "rto_description" => "RTO ARKI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-12",
+                "rto_description" => "RTO NALAGARH",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-13",
+                "rto_description" => "RTO Kandaghat",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-14",
+                "rto_description" => "RTO Solan",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-15",
+                "rto_description" => "PARWAN",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-16",
+                "rto_description" => "RLA RAJGARH",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-17",
+                "rto_description" => "RTO PAONTA SAHIB",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-18",
+                "rto_description" => "RTO Nahan",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-19",
+                "rto_description" => "RTO AMB",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-20",
+                "rto_description" => "RTO UNA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-21",
+                "rto_description" => "RTO BARSAR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-22",
+                "rto_description" => "RTO Hamirpur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-23",
+                "rto_description" => "RTO GHUMARWIN",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-24",
+                "rto_description" => "RTO BILASPUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-25",
+                "rto_description" => "REKPNGPEO",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-26",
+                "rto_description" => "RTO Palampur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-27",
+                "rto_description" => "RTO POOH",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-28",
+                "rto_description" => "RTO SARKAGHAT",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-29",
+                "rto_description" => "RTO JOGINDER NAGAR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-30",
+                "rto_description" => "RTO KARSOG",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-31",
+                "rto_description" => "RTO-SUNDAR NAGAR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-32",
+                "rto_description" => "RTO GOHAR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-33",
+                "rto_description" => "RTO Mandi",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-34",
+                "rto_description" => "RTO Kullu",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-35",
+                "rto_description" => "RTO ANNI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-36",
+                "rto_description" => "RTO Dehra",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-37",
+                "rto_description" => "RTO PALAMPUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-38",
+                "rto_description" => "RTO Nurpur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-39",
+                "rto_description" => "RTO Dharmshala",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-40",
+                "rto_description" => "RTO Kangra",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-41",
+                "rto_description" => "RTO KAZA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-42",
+                "rto_description" => "RTO KEYLONG",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-43",
+                "rto_description" => "RTO UDAIPUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-44",
+                "rto_description" => "SDM",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-45",
+                "rto_description" => "SDM",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-46",
+                "rto_description" => "SDM",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-47",
+                "rto_description" => "SDM",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-48",
+                "rto_description" => "SDM",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-49",
+                "rto_description" => "RTO KULLU (BANZAR)",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-50",
+                "rto_description" => "RTO NAHAN",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-51",
+                "rto_description" => "RTO SHIMLA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-52",
+                "rto_description" => "RTO SHIMLA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-53",
+                "rto_description" => "RTO Baijnath",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-54",
+                "rto_description" => "RTO Jawali",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-55",
+                "rto_description" => "NADAUN",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-56",
+                "rto_description" => "RTO Jaisinghpura",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-57",
+                "rto_description" => "SDM",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-58",
+                "rto_description" => "RTO MANALI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-59",
+                "rto_description" => "RTO-SOLAN",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-61",
+                "rto_description" => "RTO KULLU",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-62",
+                "rto_description" => "RTO DODRA-KAWAR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-63",
+                "rto_description" => "RTO SHIMLA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-64",
+                "rto_description" => "RTO NAHAN",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-65",
+                "rto_description" => "RTO-MANDI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-66",
+                "rto_description" => "KULLU",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-67",
+                "rto_description" => "KANGRA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-68",
+                "rto_description" => "RTO-DHARMSHALA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-69",
+                "rto_description" => "RTO Bilaspur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-70",
+                "rto_description" => "RTO BILASPUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-71",
+                "rto_description" => "RTO NAHAN",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-72",
+                "rto_description" => "RTO-UNA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-73",
+                "rto_description" => "RTO CHAMBA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-74",
+                "rto_description" => "RTO BHORANJ",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-76",
+                "rto_description" => "RTO-PADHAR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-77",
+                "rto_description" => "RTO-RLA DODRA KAWAR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-78",
+                "rto_description" => "RTO Bangana",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-79",
+                "rto_description" => "RTO-RLA SANGRAHA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-80",
+                "rto_description" => "RTO Haroli",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-81",
+                "rto_description" => "RTO-Salooni",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-82",
+                "rto_description" => "RTO Sadar Mandi",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-83",
+                "rto_description" => "\"RTO JAWALAJI",
+                "rto_zone" => " KANGRA\"",
+            ),
+            array(
+                "rto_code" => "HP-84",
+                "rto_description" => "RTO SUJANPUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-85",
+                "rto_description" => "Shillai",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-86",
+                "rto_description" => "RTO/RLA Dharampur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-87",
+                "rto_description" => "RLA  Janjehli distt. Mandi( pin code 175047)",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-90",
+                "rto_description" => "RLA Shahpur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-93",
+                "rto_description" => "HP BADDI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HP-95",
+                "rto_description" => "RLA Kumarsain",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR 84",
+                "rto_description" => "RTA CHARKHI DADRI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-01",
+                "rto_description" => "RTO Ambala",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-02",
+                "rto_description" => "RTO Yamuna Nagar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-03",
+                "rto_description" => "RTO Panchkula",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-04",
+                "rto_description" => "RTO Naraingarh",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-05",
+                "rto_description" => "Rto Karnal",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-06",
+                "rto_description" => "RTO Painpat",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-07",
+                "rto_description" => "RTO Kurukshetra",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-08",
+                "rto_description" => "RTO Kaithal",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-09",
+                "rto_description" => "RTO Cheeka",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-10",
+                "rto_description" => "RTO Sonipat",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-11",
+                "rto_description" => "RTO Gohana",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-12",
+                "rto_description" => "RTO Rohtak",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-13",
+                "rto_description" => "RTO Bhadurgarh",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-14",
+                "rto_description" => "RTO Jhajjar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-15",
+                "rto_description" => "RTO Meham",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-16",
+                "rto_description" => "RTO Bhiwani",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-17",
+                "rto_description" => "Siwani",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-18",
+                "rto_description" => "Loharu",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-19",
+                "rto_description" => "RTO Charkhidadril",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-20",
+                "rto_description" => "RTO Hissar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-21",
+                "rto_description" => "RTO Hansi",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-22",
+                "rto_description" => "RTO Fatehabad",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-23",
+                "rto_description" => "RTO Tohana",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-24",
+                "rto_description" => "RTO Sirsa",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-25",
+                "rto_description" => "RTO Dabwali",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-26",
+                "rto_description" => "RTO Gurgaon",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-27",
+                "rto_description" => "NUH",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-28",
+                "rto_description" => "Ferozepur Zhirka",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-29",
+                "rto_description" => "RTO Ballabhgarh",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-30",
+                "rto_description" => "RTO Palwal",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-31",
+                "rto_description" => "RTO Jind",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-32",
+                "rto_description" => "RTO NARWANA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-33",
+                "rto_description" => "RTO Safidon",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-34",
+                "rto_description" => "RTO Mahindergarh",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-35",
+                "rto_description" => "RTO ANNI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-36",
+                "rto_description" => "RTO Rewaril",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-37",
+                "rto_description" => "RTO AMBALA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-38",
+                "rto_description" => "BALLABHGARH",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-39",
+                "rto_description" => "RTO HISSAR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-40",
+                "rto_description" => "ASSANDH",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-41",
+                "rto_description" => "RTO PEHOWA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-42",
+                "rto_description" => "SONEPAT",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-43",
+                "rto_description" => "KOSLI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-44",
+                "rto_description" => "RTO Ellanabad",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-45",
+                "rto_description" => "RTO KARNAL",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-46",
+                "rto_description" => "SONEPAT",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-47",
+                "rto_description" => "REWARI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-48",
+                "rto_description" => "RTO TOSHAM",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-49",
+                "rto_description" => "RTO KALKA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-50",
+                "rto_description" => "RTO Hodal",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-51",
+                "rto_description" => "RTO Faridabad",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-52",
+                "rto_description" => "RTO HATHIN",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-53",
+                "rto_description" => "Adampur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-54",
+                "rto_description" => "RTO Ambala - Barara",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-55",
+                "rto_description" => "RTO GURGAON",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-56",
+                "rto_description" => "RTO JIND",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-57",
+                "rto_description" => "RTO SIRSA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-58",
+                "rto_description" => "YAMUNANAGAR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-59",
+                "rto_description" => "RTO RATIA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-60",
+                "rto_description" => "SAMALKHA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-61",
+                "rto_description" => "BHIWANI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-62",
+                "rto_description" => "RTO FATEHABAD",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-63",
+                "rto_description" => "JHAJJAR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-64",
+                "rto_description" => "HARYANA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-65",
+                "rto_description" => "RTO KURUKSHETRA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-66",
+                "rto_description" => "RTO NARNAUL",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-67",
+                "rto_description" => "PANIPAT",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-68",
+                "rto_description" => "Chandigarh",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-69",
+                "rto_description" => "RTO SONEPAT",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-70",
+                "rto_description" => "RTO-STA-CHANDIGARH.",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-71",
+                "rto_description" => "RTO BILASPUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-72",
+                "rto_description" => "FARIDABAD",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-73",
+                "rto_description" => "RTA PALWAL",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-74",
+                "rto_description" => "AMBALA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-75",
+                "rto_description" => "INDRI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-76",
+                "rto_description" => "RTO-TAUROO",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-77",
+                "rto_description" => "RTO-BERI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-78",
+                "rto_description" => "RTO Shahabad (M)",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-79",
+                "rto_description" => "KHARKHODA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-80",
+                "rto_description" => "RTO-BARWALA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-81",
+                "rto_description" => "RTO BAWAL",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-82",
+                "rto_description" => "RTO KANINA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-83",
+                "rto_description" => "RTO Kalayat",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-84",
+                "rto_description" => "RTA CHARKHI DADRI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-85",
+                "rto_description" => "RTO CANTT",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-86",
+                "rto_description" => "RTO Sonipat",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-88",
+                "rto_description" => "RTO Kundli",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "HR-99",
+                "rto_description" => "HARYANA TEMPORARY",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "JH-01",
+                "rto_description" => "Ranchi",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "JH-02",
+                "rto_description" => "Hazaribagh",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "JH-03",
+                "rto_description" => "Daltonganj",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "JH-04",
+                "rto_description" => "Dumka",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "JH-05",
+                "rto_description" => "Jamshedpur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "JH-06",
+                "rto_description" => "Chaibasa",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "JH-07",
+                "rto_description" => "Gumla",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "JH-08",
+                "rto_description" => "Lohardagga",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "JH-09",
+                "rto_description" => "Bokaro",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "JH-10",
+                "rto_description" => "Dhanbad",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "JH-11",
+                "rto_description" => "Gioridih",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "JH-12",
+                "rto_description" => "Koderma",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "JH-13",
+                "rto_description" => "Chatra",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "JH-14",
+                "rto_description" => "Garuwah",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "JH-15",
+                "rto_description" => "Deoghar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "JH-16",
+                "rto_description" => "Pakar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "JH-17",
+                "rto_description" => "Godda",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "JH-18",
+                "rto_description" => "Sahibganj",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "JH-19",
+                "rto_description" => "Latehar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "JH-20",
+                "rto_description" => "RTO Simdega",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "JH-21",
+                "rto_description" => "RTO Jamtala",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "JH-22",
+                "rto_description" => "SARAIKELLA/KHARSAWAN",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "JH-24",
+                "rto_description" => "Ramgarh",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "JK-01",
+                "rto_description" => "RTO Srinagar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "JK-02",
+                "rto_description" => "RTO Jammu",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "JK-03",
+                "rto_description" => "RTO Anantnag",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "JK-04",
+                "rto_description" => "RTO Budgam",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "JK-05",
+                "rto_description" => "RTO Baramula",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "JK-06",
+                "rto_description" => "RTO Doda",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "JK-07",
+                "rto_description" => "RTO Kargil",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "JK-08",
+                "rto_description" => "RTO Kathua",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "JK-09",
+                "rto_description" => "RTO Kupwara",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "JK-10",
+                "rto_description" => "RTO Leh",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "JK-11",
+                "rto_description" => "RTO Rajouri",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "JK-12",
+                "rto_description" => "RTO Poonch",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "JK-13",
+                "rto_description" => "RTO Pulwama",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "JK-14",
+                "rto_description" => "RTO Udhampur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "JK-15",
+                "rto_description" => "RTO Bandipora",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "JK-16",
+                "rto_description" => "RTO GANDERBAL",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "JK-17",
+                "rto_description" => "RTO KISHTWAR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "JK-18",
+                "rto_description" => "RTO KULGAM",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "JK-19",
+                "rto_description" => "RTO RAMBAN",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "JK-20",
+                "rto_description" => "RTO REASI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "JK-21",
+                "rto_description" => "RTO-SAMBA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "JK-22",
+                "rto_description" => "RTO - Shopian",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-01",
+                "rto_description" => "Bangalore Central",
+                "rto_zone" => "35",
+            ),
+            array(
+                "rto_code" => "KA-02",
+                "rto_description" => "BANGALORE",
+                "rto_zone" => "35",
+            ),
+            array(
+                "rto_code" => "KA-03",
+                "rto_description" => "Bangalore East",
+                "rto_zone" => "35",
+            ),
+            array(
+                "rto_code" => "KA-04",
+                "rto_description" => "Bangalore North",
+                "rto_zone" => "35",
+            ),
+            array(
+                "rto_code" => "KA-05",
+                "rto_description" => "Bangalore South",
+                "rto_zone" => "35",
+            ),
+            array(
+                "rto_code" => "KA-06",
+                "rto_description" => "Tumkur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-07",
+                "rto_description" => "Kolar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-08",
+                "rto_description" => "Kolar Gold Fields (KGF)",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-09",
+                "rto_description" => "Mysore",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-10",
+                "rto_description" => "Chamrajnagar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-11",
+                "rto_description" => "Mandya",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-12",
+                "rto_description" => "Madikeri",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-13",
+                "rto_description" => "Hassan",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-14",
+                "rto_description" => "Shimoga",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-15",
+                "rto_description" => "Sagar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-16",
+                "rto_description" => "Chitradurga",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-17",
+                "rto_description" => "Davanagere",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-18",
+                "rto_description" => "Chickmagalur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-19",
+                "rto_description" => "Mangalore",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-20",
+                "rto_description" => "Udupi",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-21",
+                "rto_description" => "Puttur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-22",
+                "rto_description" => "Belgaum",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-23",
+                "rto_description" => "Chikkodi",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-24",
+                "rto_description" => "Bailhongal",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-25",
+                "rto_description" => "Dharwad",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-26",
+                "rto_description" => "Gadag",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-27",
+                "rto_description" => "Haveri",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-28",
+                "rto_description" => "Bijapur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-29",
+                "rto_description" => "Bagalkot",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-30",
+                "rto_description" => "Karwar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-31",
+                "rto_description" => "Sirsi",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-32",
+                "rto_description" => "Gulbarga",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-33",
+                "rto_description" => "Yadgir",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-34",
+                "rto_description" => "Bellary",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-35",
+                "rto_description" => "Hospet",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-36",
+                "rto_description" => "Raichur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-37",
+                "rto_description" => "Gangavati",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-38",
+                "rto_description" => "Bidar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-39",
+                "rto_description" => "Balki",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-40",
+                "rto_description" => "Chickbalapur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-41",
+                "rto_description" => "RTO RAJARAJESHWARI NAGAR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-42",
+                "rto_description" => "RAM NAGAR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-43",
+                "rto_description" => "RTO Devanahalli",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-44",
+                "rto_description" => "Tiptur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-45",
+                "rto_description" => "RTO HUNSUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-46",
+                "rto_description" => "RTO SAKALESHPUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-47",
+                "rto_description" => "RTO HONNAVAR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-48",
+                "rto_description" => "RTO JAMAKANDI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-49",
+                "rto_description" => "RTO GOKAK",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-50",
+                "rto_description" => "RTO YELAHANKA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-51",
+                "rto_description" => "RTO BANNERGHATTA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-52",
+                "rto_description" => "NELAMANGALA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-53",
+                "rto_description" => "K.R.Puram RTO",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-54",
+                "rto_description" => "NAGAMANGALA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-55",
+                "rto_description" => "RTO Circle M G Road",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-56",
+                "rto_description" => "BASAVAKALYANA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-57",
+                "rto_description" => "RTO-Bangalore STU and AR",
+                "rto_zone" => "35",
+            ),
+            array(
+                "rto_code" => "KA-58",
+                "rto_description" => "\"RTO",
+                "rto_zone" => " Banashank",
+            ),
+            array(
+                "rto_code" => "KA-59",
+                "rto_description" => "\"RTO",
+                "rto_zone" => " Chamarajp",
+            ),
+            array(
+                "rto_code" => "KA-60",
+                "rto_description" => "\"RTO",
+                "rto_zone" => " R.T.Nagar",
+            ),
+            array(
+                "rto_code" => "KA-61",
+                "rto_description" => "\"RTO",
+                "rto_zone" => " Marathall",
+            ),
+            array(
+                "rto_code" => "KA-62",
+                "rto_description" => "\"RTO",
+                "rto_zone" => " Surathkal",
+            ),
+            array(
+                "rto_code" => "KA-63",
+                "rto_description" => "\"RTO",
+                "rto_zone" => " Hubli\"",
+            ),
+            array(
+                "rto_code" => "KA-64",
+                "rto_description" => "madhugiri",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-65",
+                "rto_description" => "Dandeli",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KA-66",
+                "rto_description" => "\"ARTO",
+                "rto_zone" => " Tarikere\"",
+            ),
+            array(
+                "rto_code" => "KA-67",
+                "rto_description" => "BANGALORE",
+                "rto_zone" => "35",
+            ),
+            array(
+                "rto_code" => "KL-01",
+                "rto_description" => "Trivandrum",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-02",
+                "rto_description" => "Kollam",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-03",
+                "rto_description" => "Pathanamthitta",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-04",
+                "rto_description" => "Alleppey",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-05",
+                "rto_description" => "Kottayam",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-06",
+                "rto_description" => "Idukki",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-07",
+                "rto_description" => "ERNAKULAM",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-08",
+                "rto_description" => "Trichur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-09",
+                "rto_description" => "Palakkad",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-10",
+                "rto_description" => "Malappuram",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-11",
+                "rto_description" => "Kozhikode",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-12",
+                "rto_description" => "Wayanad",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-13",
+                "rto_description" => "Kannur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-14",
+                "rto_description" => "Kassarkode",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-15",
+                "rto_description" => "KSRTC/Trivandrum",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-16",
+                "rto_description" => "Attingal",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-17",
+                "rto_description" => "Muvattupuzha",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-18",
+                "rto_description" => "Vadakara",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-19",
+                "rto_description" => "RTO PARASSALA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-20",
+                "rto_description" => "RTO NEYYATTINKARA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-21",
+                "rto_description" => "RTO NEDUMANGAD",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-22",
+                "rto_description" => "RTO KAZHAKUTTAM",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-23",
+                "rto_description" => "RTO KARUNAGAPALLY",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-24",
+                "rto_description" => "RTO KOTTARAKKARA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-25",
+                "rto_description" => "RTO PUNALUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-26",
+                "rto_description" => "RTO ADOOR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-27",
+                "rto_description" => "RTO THIRUVALLA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-28",
+                "rto_description" => "RTO MALLALPPALLY",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-29",
+                "rto_description" => "RTO KAYAMKULAM",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-30",
+                "rto_description" => "RTO CHENGANNUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-31",
+                "rto_description" => "RTO MAVELIKKARA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-32",
+                "rto_description" => "RTO CHERTHALA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-33",
+                "rto_description" => "RTO CHANGANASSERY",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-34",
+                "rto_description" => "RTO KANJIRAPALLY",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-35",
+                "rto_description" => "RTO PALA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-36",
+                "rto_description" => "RTO VAIKOM",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-37",
+                "rto_description" => "RTO VANDIPERIYAR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-38",
+                "rto_description" => "RTO THODUPUZHA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-39",
+                "rto_description" => "RTO THRIPUNITHRA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-40",
+                "rto_description" => "RTO PERUMBAVOOR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-41",
+                "rto_description" => "RTO ALUVA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-42",
+                "rto_description" => "RTO NORTH PARAVUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-43",
+                "rto_description" => "RTO MATTANCHERRY",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-44",
+                "rto_description" => "RTO KOTHAMANGALAM",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-45",
+                "rto_description" => "RTO IRANJALAKUDA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-46",
+                "rto_description" => "RTO GURUVAYUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-47",
+                "rto_description" => "RTO KODUNGALLOOR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-48",
+                "rto_description" => "RTO WADAKKANCHERRY",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-49",
+                "rto_description" => "RTO ALATHUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-50",
+                "rto_description" => "RTO MANNARKKAD",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-51",
+                "rto_description" => "RTO OTTAPPALAM",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-52",
+                "rto_description" => "RTO PATTAMBI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-53",
+                "rto_description" => "RTO PERINTHALMAANNA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-54",
+                "rto_description" => "RTO PONNANI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-55",
+                "rto_description" => "RTO TIRUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-56",
+                "rto_description" => "RTO KOYILANDI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-57",
+                "rto_description" => "RTO KODUVALLY",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-58",
+                "rto_description" => "RTO THALASERY",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-59",
+                "rto_description" => "RTO THALIPARAMBA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-60",
+                "rto_description" => "RTO KANHANGAD",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-61",
+                "rto_description" => "RTO KUNNATHOOR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-62",
+                "rto_description" => "RANNI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-63",
+                "rto_description" => "RTO ANGAMALY",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-64",
+                "rto_description" => "RTO CHALAKUDY",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-65",
+                "rto_description" => "RTO TIRURANGADI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-66",
+                "rto_description" => "RTO Kuttanadu",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-67",
+                "rto_description" => "RTO Uzhavoor",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-68",
+                "rto_description" => "RTO ADIMALI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-69",
+                "rto_description" => "RTO Udumbanchola",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-70",
+                "rto_description" => "RTO Chittur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-71",
+                "rto_description" => "RTO Nilambur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-72",
+                "rto_description" => "RTO Mananthavady",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "KL-73",
+                "rto_description" => "RTO Sulthan Bathery",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "LD-01",
+                "rto_description" => "RTO Kavaratti",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "LD-02",
+                "rto_description" => "RTO AGATHI ISLAND",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "LD-04",
+                "rto_description" => "RTO ANDROTH",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "LD-08",
+                "rto_description" => "RTO Kalpeni",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-01",
+                "rto_description" => "Mumbai Central",
+                "rto_zone" => "35",
+            ),
+            array(
+                "rto_code" => "MH-02",
+                "rto_description" => "Mumbai West",
+                "rto_zone" => "35",
+            ),
+            array(
+                "rto_code" => "MH-03",
+                "rto_description" => "Mumbai East",
+                "rto_zone" => "35",
+            ),
+            array(
+                "rto_code" => "MH-04",
+                "rto_description" => "Thane",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-05",
+                "rto_description" => "Kalyan",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-06",
+                "rto_description" => "Pen",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-07",
+                "rto_description" => "Sindhudurg",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-08",
+                "rto_description" => "Ratnagiri",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-09",
+                "rto_description" => "Kolhapur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-10",
+                "rto_description" => "Sangli",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-11",
+                "rto_description" => "Satara",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-12",
+                "rto_description" => "Pune",
+                "rto_zone" => "35",
+            ),
+            array(
+                "rto_code" => "MH-13",
+                "rto_description" => "Solapur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-14",
+                "rto_description" => "Pimpri - Chinchwad",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-15",
+                "rto_description" => "Nasik",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-16",
+                "rto_description" => "Ahmednagar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-17",
+                "rto_description" => "Shrirampur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-18",
+                "rto_description" => "DHULA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-19",
+                "rto_description" => "Jalgaon",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-20",
+                "rto_description" => "Aurangabad",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-21",
+                "rto_description" => "Jalna",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-22",
+                "rto_description" => "Parbhani",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-23",
+                "rto_description" => "Beed",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-24",
+                "rto_description" => "Latur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-25",
+                "rto_description" => "Osmanabad",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-26",
+                "rto_description" => "Nanded",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-27",
+                "rto_description" => "Amravati",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-28",
+                "rto_description" => "Buldhana",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-29",
+                "rto_description" => "Yavatmal",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-30",
+                "rto_description" => "Akola",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-31",
+                "rto_description" => "Nagpur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-32",
+                "rto_description" => "Wardha",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-33",
+                "rto_description" => "Gadchiroli",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-34",
+                "rto_description" => "Chandrapur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-35",
+                "rto_description" => "Gondia",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-36",
+                "rto_description" => "Bhandara",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-37",
+                "rto_description" => "Washim",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-38",
+                "rto_description" => "Hingoli",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-39",
+                "rto_description" => "Nandurbar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-40",
+                "rto_description" => "Nagpur Rural",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-41",
+                "rto_description" => "Malegaon",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-42",
+                "rto_description" => "Baramati",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-43",
+                "rto_description" => "Vashi",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-44",
+                "rto_description" => "Ambejogai",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-45",
+                "rto_description" => "RTO AKLUJ",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-46",
+                "rto_description" => "PANVEL",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-47",
+                "rto_description" => "RTO BORIVILI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-48",
+                "rto_description" => "VIRAR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-49",
+                "rto_description" => "NAGPUR EAST",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-50",
+                "rto_description" => "KARAD",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-51",
+                "rto_description" => "RTO Nashik Rural",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-52",
+                "rto_description" => "RTO Kanwati",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-53",
+                "rto_description" => "RTO Nanded South",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-54",
+                "rto_description" => "RTO  Pune South ",
+                "rto_zone" => "35",
+            ),
+            array(
+                "rto_code" => "MH-55",
+                "rto_description" => "RTO Pune North",
+                "rto_zone" => "35",
+            ),
+            array(
+                "rto_code" => "MH-56",
+                "rto_description" => "RTO  Latur central",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-57",
+                "rto_description" => "RTO Parabhani Rural",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-58",
+                "rto_description" => "RTO Satara Rural",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-59",
+                "rto_description" => "RTO  Aurangbad  Rural",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-60",
+                "rto_description" => "RTO Sangli Rural",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-61",
+                "rto_description" => "RTO Nashik South",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MH-62",
+                "rto_description" => "RTO Nanded Rural",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "ML-03",
+                "rto_description" => "MSTC",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "ML-04",
+                "rto_description" => "Jowai",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "ML-05",
+                "rto_description" => "Shillong",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "ML-06",
+                "rto_description" => "Nongstoin",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "ML-07",
+                "rto_description" => "Williamnagar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "ML-08",
+                "rto_description" => "Tura",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "ML-09",
+                "rto_description" => "Baghmara",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "ML-10",
+                "rto_description" => "Nongpoh",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "ML-11",
+                "rto_description" => "\"East Jayantia Hills",
+                "rto_zone" => " Khliehria",
+            ),
+            array(
+                "rto_code" => "ML-12",
+                "rto_description" => "DTO South West Khasi Hills Mawkyrwat",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "ML-13",
+                "rto_description" => "North Garo HIlls",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "ML-14",
+                "rto_description" => "South West Garo Hills",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "ML-15",
+                "rto_description" => "EAST KHASI HILLS",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MN-01",
+                "rto_description" => "IMPHAL WEST",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MN-02",
+                "rto_description" => "CHURACHANDPUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MN-03",
+                "rto_description" => "D.T.O. KANGPOKPI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MN-04",
+                "rto_description" => "D.T.O. THOUBAL",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MN-05",
+                "rto_description" => "D.T.O.BISHENPUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MN-06",
+                "rto_description" => "IMPHAL EAST",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MN-07",
+                "rto_description" => "DTO UKHRUL",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MN-08",
+                "rto_description" => "DTO Senapati",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-02",
+                "rto_description" => "RTO-GUNA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-03",
+                "rto_description" => "RTO MANIPURI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-04",
+                "rto_description" => "BHOPAL",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-05",
+                "rto_description" => "HOSHANGABAD",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-06",
+                "rto_description" => "MORENA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-07",
+                "rto_description" => "GWALIAR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-08",
+                "rto_description" => "GUNA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-09",
+                "rto_description" => "INDORE",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-10",
+                "rto_description" => "KHARGONE",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-11",
+                "rto_description" => "DHAR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-12",
+                "rto_description" => "KHANDWA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-13",
+                "rto_description" => "UJJAIN",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-14",
+                "rto_description" => "MANDSOUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-15",
+                "rto_description" => "SAGAR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-16",
+                "rto_description" => "ADDL.RTO CHATARPUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-17",
+                "rto_description" => "REWA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-18",
+                "rto_description" => "SHAHDOL",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-19",
+                "rto_description" => "SATNA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-20",
+                "rto_description" => "JABALPUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-21",
+                "rto_description" => "KATNI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-22",
+                "rto_description" => "SEONI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-23",
+                "rto_description" => "RAIPUR/CHHINDWARA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-24",
+                "rto_description" => "DURGBHILAI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-26",
+                "rto_description" => "Bilaspur/Datia",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-28",
+                "rto_description" => "CHHINDWARA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-30",
+                "rto_description" => "BHIND",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-31",
+                "rto_description" => "SHOUPUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-32",
+                "rto_description" => "DATIYA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-33",
+                "rto_description" => "SHIVPURI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-34",
+                "rto_description" => "DAMOH",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-35",
+                "rto_description" => "PANNA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-36",
+                "rto_description" => "TIKAMGARH",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-37",
+                "rto_description" => "SIHORE",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-38",
+                "rto_description" => "RAISEN",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-39",
+                "rto_description" => "RAJGARH",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-40",
+                "rto_description" => "VIDISHA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-41",
+                "rto_description" => "DEWAS",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-42",
+                "rto_description" => "SHAJAPUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-43",
+                "rto_description" => "RATLAM",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-44",
+                "rto_description" => "NEEMUCH",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-45",
+                "rto_description" => "JHABUA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-46",
+                "rto_description" => "BADHWANI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-47",
+                "rto_description" => "HARDA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-48",
+                "rto_description" => "BETUL",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-49",
+                "rto_description" => "NARASINGHPUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-50",
+                "rto_description" => "BALAGHAT",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-51",
+                "rto_description" => "MANDLA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-52",
+                "rto_description" => "DINDORI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-53",
+                "rto_description" => "Sidhi",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-54",
+                "rto_description" => "UMARIA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-65",
+                "rto_description" => "ANUPPUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-66",
+                "rto_description" => "RTO SINGRAULI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-67",
+                "rto_description" => "Ashok Nagar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-68",
+                "rto_description" => "BURHANPUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-69",
+                "rto_description" => "RTO Alirajpur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MP-70",
+                "rto_description" => "RTO AGAR / MALWA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MZ-01",
+                "rto_description" => "Aizwal",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MZ-02",
+                "rto_description" => "Lunglei",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MZ-03",
+                "rto_description" => "Saiha",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MZ-04",
+                "rto_description" => "Champhai",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MZ-05",
+                "rto_description" => "Kolasib",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MZ-06",
+                "rto_description" => "Serchhip",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MZ-07",
+                "rto_description" => "LAWNGTLAI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MZ-08",
+                "rto_description" => "Mamit",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "MZ-09",
+                "rto_description" => " AIZAWL",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "NL-01",
+                "rto_description" => "Kohima",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "NL-02",
+                "rto_description" => "Mokukchung",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "NL-03",
+                "rto_description" => "TUENSANG",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "NL-04",
+                "rto_description" => "Mon",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "NL-05",
+                "rto_description" => "Wokha",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "NL-06",
+                "rto_description" => "Zunheboto",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "NL-07",
+                "rto_description" => "Dimapur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "NL-08",
+                "rto_description" => "Phek",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "NL-10",
+                "rto_description" => "KOHIMA Govt. Vehicle (LMV)",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "NL-11",
+                "rto_description" => "KOHIMA (Govt. Vehicle (HMV))",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OD-01",
+                "rto_description" => "Balasore",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OD-02",
+                "rto_description" => "Bhubaneswar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OD-03",
+                "rto_description" => "Bolangir",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OD-04",
+                "rto_description" => "Chandikhol",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OD-05",
+                "rto_description" => "Cuttack",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OD-06",
+                "rto_description" => "Dhenkanal",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OD-07",
+                "rto_description" => "Ganjam",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OD-08",
+                "rto_description" => "Kalahandi",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OD-09",
+                "rto_description" => "Keonjhar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OD-10",
+                "rto_description" => "KORAPUT",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OD-11",
+                "rto_description" => "Mayurbhanj",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OD-12",
+                "rto_description" => "Phulbani",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OD-13",
+                "rto_description" => "Puri",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OD-14",
+                "rto_description" => "Rourkela",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OD-15",
+                "rto_description" => "Sambalpur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OD-16",
+                "rto_description" => "Sundergarh",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OD-17",
+                "rto_description" => "Bargarh",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OD-18",
+                "rto_description" => "Rayagada",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OD-19",
+                "rto_description" => "ANGUL",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OD-20",
+                "rto_description" => "Gajapati",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OD-21",
+                "rto_description" => "Jagatsinghpur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OD-22",
+                "rto_description" => "Bhadrak",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OD-23",
+                "rto_description" => "Jharsuguda",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OD-24",
+                "rto_description" => "Nawarangpur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OD-25",
+                "rto_description" => "Nayagarh",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OD-26",
+                "rto_description" => "NUAPADA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OD-27",
+                "rto_description" => "Boudh",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OD-28",
+                "rto_description" => "Deogarh",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OD-29",
+                "rto_description" => "Kendrapara",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OD-30",
+                "rto_description" => "Malakanagiri",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OD-31",
+                "rto_description" => "Sonepur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OD-32",
+                "rto_description" => "\"RTA ",
+                "rto_zone" => "BHANJANAGA",
+            ),
+            array(
+                "rto_code" => "OD-33",
+                "rto_description" => "\"RTA Bhubaneswar-II",
+                "rto_zone" => " Odisha\"",
+            ),
+            array(
+                "rto_code" => "OD-34",
+                "rto_description" => "RTO Jajpur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OD-35",
+                "rto_description" => "RTO TALCHER",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OR-01",
+                "rto_description" => "Balasore",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OR-02",
+                "rto_description" => "Bhubaneshwar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OR-03",
+                "rto_description" => "Bolangir",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OR-04",
+                "rto_description" => "Chandikhol",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OR-05",
+                "rto_description" => "CUTTACK",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OR-06",
+                "rto_description" => "DHENKANAL",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OR-07",
+                "rto_description" => "Ganjam",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OR-08",
+                "rto_description" => "Kalahandi",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OR-09",
+                "rto_description" => "Keonjhar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OR-10",
+                "rto_description" => "Koraput",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OR-11",
+                "rto_description" => "Mayurbhanj",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OR-12",
+                "rto_description" => "Phulbhani",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OR-13",
+                "rto_description" => "Puri",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OR-14",
+                "rto_description" => "Rourkela",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OR-15",
+                "rto_description" => "Sambalpur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OR-16",
+                "rto_description" => "Sundergarh",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OR-17",
+                "rto_description" => "Bargargh",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OR-18",
+                "rto_description" => "Rayagada",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OR-19",
+                "rto_description" => "Angul",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OR-20",
+                "rto_description" => "Gajapati",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OR-21",
+                "rto_description" => "Jagatsinghpur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OR-22",
+                "rto_description" => "Bhadrak",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OR-23",
+                "rto_description" => "Jharsuguda",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OR-24",
+                "rto_description" => "Nawarannpur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OR-25",
+                "rto_description" => "Nayagarh",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OR-26",
+                "rto_description" => "Nuapada",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OR-27",
+                "rto_description" => "Boudh",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OR-28",
+                "rto_description" => "DEOGARH",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OR-29",
+                "rto_description" => "KENDRAPARA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OR-30",
+                "rto_description" => "RTO Malkangiri",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "OR-31",
+                "rto_description" => "RTO Sonepur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PAH-100",
+                "rto_description" => "Pathankot",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-01",
+                "rto_description" => "Chandigarh",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-02",
+                "rto_description" => "Amritsar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-03",
+                "rto_description" => "Bathinda.",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-04",
+                "rto_description" => "Faridkot",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-05",
+                "rto_description" => "Farozepur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-06",
+                "rto_description" => "Gurdaspur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-07",
+                "rto_description" => "Hosiarpur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-08",
+                "rto_description" => "Jalandhar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-09",
+                "rto_description" => "Kapurthala",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-10",
+                "rto_description" => "Ludhiana",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-11",
+                "rto_description" => "Patiala",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-12",
+                "rto_description" => "Ropar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-13",
+                "rto_description" => "Sangrur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-14",
+                "rto_description" => "Ajnala",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-15",
+                "rto_description" => "Abohar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-16",
+                "rto_description" => "Anandpur Sahib",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-17",
+                "rto_description" => "Baba Bakala",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-18",
+                "rto_description" => "Batala",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-19",
+                "rto_description" => "Barnala",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-20",
+                "rto_description" => "Balachour",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-21",
+                "rto_description" => "Dasuya",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-22",
+                "rto_description" => "Fazika",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-23",
+                "rto_description" => "Fatehgarh Sahib",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-24",
+                "rto_description" => "Garshankar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-25",
+                "rto_description" => "Jagraon",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-26",
+                "rto_description" => "Khanna",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-27",
+                "rto_description" => "Kharar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-28",
+                "rto_description" => "Malarkotla",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-29",
+                "rto_description" => "Moga",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-30",
+                "rto_description" => "Muktsar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-31",
+                "rto_description" => "Mansa",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-32",
+                "rto_description" => "Nawanshahar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-33",
+                "rto_description" => "Nakodar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-34",
+                "rto_description" => "Nabha",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-35",
+                "rto_description" => "Pathankot",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-36",
+                "rto_description" => "Phagwara",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-37",
+                "rto_description" => "Philour",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-38",
+                "rto_description" => "Patti",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-39",
+                "rto_description" => "Rajpura",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-40",
+                "rto_description" => "Rampuraphul",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-41",
+                "rto_description" => "Sultanpur Lodhi",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-42",
+                "rto_description" => "Samana",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-43",
+                "rto_description" => "Samarala",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-44",
+                "rto_description" => "Sunam",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-45",
+                "rto_description" => "Talwandi Saboo",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-46",
+                "rto_description" => "Taran Tarn",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-47",
+                "rto_description" => "ZIRO",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-48",
+                "rto_description" => "Amloh",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-49",
+                "rto_description" => "Khamano",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-50",
+                "rto_description" => "Budhlada",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-51",
+                "rto_description" => "Sardulgarh",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-52",
+                "rto_description" => "Bassi Pathana",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-53",
+                "rto_description" => "Malout",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-54",
+                "rto_description" => "Mukarian",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-55",
+                "rto_description" => "Payal",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-56",
+                "rto_description" => "Raikot",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-57",
+                "rto_description" => "Bholath",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-58",
+                "rto_description" => "Dara Baba Nanak",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-59",
+                "rto_description" => "Dhuri",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-60",
+                "rto_description" => "Giddarbaha",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-61",
+                "rto_description" => "Jalabad",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-62",
+                "rto_description" => "Jaitu",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-63",
+                "rto_description" => "Khadur Sahib",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-64",
+                "rto_description" => "Moonak",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-65",
+                "rto_description" => "Mohali",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-66",
+                "rto_description" => "Nahil Singh Wala",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-67",
+                "rto_description" => "Shahkot",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-68",
+                "rto_description" => "Dharkalam",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-69",
+                "rto_description" => "Bagha Purana",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-70",
+                "rto_description" => "Dara Bassi",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-71",
+                "rto_description" => "ROPAR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-72",
+                "rto_description" => "PATRAN",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-73",
+                "rto_description" => "Barnala",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-74",
+                "rto_description" => "Nangal",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-75",
+                "rto_description" => "LEHRAGAGA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-76",
+                "rto_description" => "DHARMKOT",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PB-77",
+                "rto_description" => "SASNAGAR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PY-01",
+                "rto_description" => "PONDICHERRY",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PY-02",
+                "rto_description" => "KARAIKAL",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PY-03",
+                "rto_description" => "MAHE",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PY-04",
+                "rto_description" => "YANAM",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "PY-05",
+                "rto_description" => "Oulgaret",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-01",
+                "rto_description" => "Ajmer",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-02",
+                "rto_description" => "Alwar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-03",
+                "rto_description" => "Banswara",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-04",
+                "rto_description" => "Barmer",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-05",
+                "rto_description" => "Bharatpur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-06",
+                "rto_description" => "Bhilwara",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-07",
+                "rto_description" => "Bikaner",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-08",
+                "rto_description" => "BUNDI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-09",
+                "rto_description" => "Chittorgarh",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-10",
+                "rto_description" => "Churu",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-11",
+                "rto_description" => "Dholpur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-12",
+                "rto_description" => "Dungarpur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-13",
+                "rto_description" => "Sriganganagar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-14",
+                "rto_description" => "Jaipur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-15",
+                "rto_description" => "Jaisalmer",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-16",
+                "rto_description" => "Jalore",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-17",
+                "rto_description" => "JHALAWAR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-18",
+                "rto_description" => "Jhunjhunu",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-19",
+                "rto_description" => "Jodhpur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-20",
+                "rto_description" => "Kota",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-21",
+                "rto_description" => "Nagour",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-22",
+                "rto_description" => "Pali",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-23",
+                "rto_description" => "Sikar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-24",
+                "rto_description" => "Sirohi",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-25",
+                "rto_description" => "Sawai Madhopur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-26",
+                "rto_description" => "Tonk",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-27",
+                "rto_description" => "Udaipur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-28",
+                "rto_description" => "BARAN",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-29",
+                "rto_description" => "Dausa",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-30",
+                "rto_description" => "Rajsamand",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-31",
+                "rto_description" => "HANUMANGARH",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-32",
+                "rto_description" => "Kotputli",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-33",
+                "rto_description" => "Ramgaj Mandi",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-34",
+                "rto_description" => "Karoli",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-35",
+                "rto_description" => "Pratapgarh",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-36",
+                "rto_description" => "Beawer",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-37",
+                "rto_description" => "RTO Deedwana",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-38",
+                "rto_description" => "RTO ABU ROAD",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-39",
+                "rto_description" => "DTO BALOTRA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-40",
+                "rto_description" => "DTO BHIWADI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-41",
+                "rto_description" => "DTO CHOMU",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-42",
+                "rto_description" => "DTO Kishangarh (Ajmer)",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-43",
+                "rto_description" => "DTO FALODI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-44",
+                "rto_description" => "DTO SUJANGARH",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-45",
+                "rto_description" => "RTO Jaipur North",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-46",
+                "rto_description" => "RTO Bhinmal",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-47",
+                "rto_description" => "RTO DUDU",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-48",
+                "rto_description" => "RTO KEKRI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-49",
+                "rto_description" => "RTO NOHAR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-50",
+                "rto_description" => "RTO NOKHA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "RJ-51",
+                "rto_description" => "\"RTO SHAHPURA",
+                "rto_zone" => " BHILWARA\"",
+            ),
+            array(
+                "rto_code" => "RJ-52",
+                "rto_description" => "RTO Shahpura",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "SK-01",
+                "rto_description" => "Gangtok(wo-wheelers)",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "SK-02",
+                "rto_description" => "Gangtok(Private Vehicles)",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "SK-03",
+                "rto_description" => "Gangtok(Goods Vehicle)",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "SK-04",
+                "rto_description" => "Gangtok(Buses&Cont.Vehicle)",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "SK-05",
+                "rto_description" => "\"Gangtok(Tractors",
+                "rto_zone" => "Trailers)\"",
+            ),
+            array(
+                "rto_code" => "TE-14",
+                "rto_description" => "TEMP MEERUT",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TE-15",
+                "rto_description" => "TEMP GHAZIABAD",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TE-40",
+                "rto_description" => "TEMP",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TE-59",
+                "rto_description" => "TEMP",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TE-63",
+                "rto_description" => "TEMP",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TE-75",
+                "rto_description" => "TEMP",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TE-76",
+                "rto_description" => "TEMP",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TM-02",
+                "rto_description" => "TEPMP",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TM-04",
+                "rto_description" => "TEMP",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TM-08",
+                "rto_description" => "TEMP",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TM-12",
+                "rto_description" => "TEMP",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TM-15",
+                "rto_description" => "TEMP GHAZIABAD",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TM-67",
+                "rto_description" => "TEMP",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN -87",
+                "rto_description" => "RTO Sriperumbudur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-01",
+                "rto_description" => "Chennai Central",
+                "rto_zone" => "35",
+            ),
+            array(
+                "rto_code" => "TN-02",
+                "rto_description" => "Chennai East",
+                "rto_zone" => "35",
+            ),
+            array(
+                "rto_code" => "TN-03",
+                "rto_description" => "Chennai North",
+                "rto_zone" => "35",
+            ),
+            array(
+                "rto_code" => "TN-04",
+                "rto_description" => "Chennai North",
+                "rto_zone" => "35",
+            ),
+            array(
+                "rto_code" => "TN-05",
+                "rto_description" => "Chennai North East",
+                "rto_zone" => "35",
+            ),
+            array(
+                "rto_code" => "TN-06",
+                "rto_description" => "Mandhaveli(South East)",
+                "rto_zone" => "35",
+            ),
+            array(
+                "rto_code" => "TN-07",
+                "rto_description" => "Chennai South",
+                "rto_zone" => "35",
+            ),
+            array(
+                "rto_code" => "TN-09",
+                "rto_description" => "Chennai West",
+                "rto_zone" => "35",
+            ),
+            array(
+                "rto_code" => "TN-10",
+                "rto_description" => "Chennai South West",
+                "rto_zone" => "35",
+            ),
+            array(
+                "rto_code" => "TN-100",
+                "rto_description" => "KANYAKUMARI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-11",
+                "rto_description" => "RTO Tambaram",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-12",
+                "rto_description" => "RTO PONAMALLEE",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-13",
+                "rto_description" => "RTO AMBATTUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-14",
+                "rto_description" => "RTO sholinganallur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-15",
+                "rto_description" => "Ulundurpet/Kallakurichi",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-16",
+                "rto_description" => "RTO TINDIVANAM",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-18",
+                "rto_description" => "Red Hills",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-19",
+                "rto_description" => "RTO Chengelpet",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-20",
+                "rto_description" => "THIRUVALLUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-21",
+                "rto_description" => "Kancheepuram",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-22",
+                "rto_description" => "Meenambakkam",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-23",
+                "rto_description" => "North Arcot",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-24",
+                "rto_description" => "HOSUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-25",
+                "rto_description" => "Thiruvannamalai",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-27",
+                "rto_description" => "Salem",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-28",
+                "rto_description" => "Namakkal East",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-29",
+                "rto_description" => "Dharmapuri",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-30",
+                "rto_description" => "Salem",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-31",
+                "rto_description" => "Cuddalore",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-32",
+                "rto_description" => "Villipuram",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-33",
+                "rto_description" => "Erode",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-34",
+                "rto_description" => "RTO Tiruchengode",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-36",
+                "rto_description" => "Gobichettipalayam",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-37",
+                "rto_description" => "Coimbatore South",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-38",
+                "rto_description" => "Coimbatore North",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-39",
+                "rto_description" => "Tiruppur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-40",
+                "rto_description" => "Mettupalayam",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-41",
+                "rto_description" => "Pollachi",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-42",
+                "rto_description" => "RTO Tirupur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-43",
+                "rto_description" => "Udhagamandalam",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-45",
+                "rto_description" => "Thiruchirapalli",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-46",
+                "rto_description" => "RTO PERAMBALUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-47",
+                "rto_description" => "Karur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-48",
+                "rto_description" => "RTO SRIRANGAM",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-49",
+                "rto_description" => "Thanjavur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-50",
+                "rto_description" => "THIRUVARUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-51",
+                "rto_description" => "Nagapattinam",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-52",
+                "rto_description" => "Mettru",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-54",
+                "rto_description" => "RTO-Salem",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-55",
+                "rto_description" => "Pudukottai",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-56",
+                "rto_description" => "RTO Perundurai",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-57",
+                "rto_description" => "Dindigul",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-58",
+                "rto_description" => "Madurai South",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-59",
+                "rto_description" => "Madurai North",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-60",
+                "rto_description" => "Periakulam",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-61",
+                "rto_description" => "ARIYALUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-63",
+                "rto_description" => "Sivagangai",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-64",
+                "rto_description" => "MADURAI CENTRAL",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-65",
+                "rto_description" => "Ramanathapuram",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-66",
+                "rto_description" => "Coimbatore central",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-67",
+                "rto_description" => "Virudhunagar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-68",
+                "rto_description" => "RTO Kumbakonam",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-69",
+                "rto_description" => "Tuticorin",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-70",
+                "rto_description" => "HOSUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-72",
+                "rto_description" => "Tirunelveli",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-73",
+                "rto_description" => "RTO Ranipet",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-74",
+                "rto_description" => "Nagarcoil",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-75",
+                "rto_description" => "RTO MARTHANDAM",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-76",
+                "rto_description" => "Tenkasi",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-77",
+                "rto_description" => "ATHUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-78",
+                "rto_description" => "RTO DHARAPURAM",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-79",
+                "rto_description" => "Sankarankovil",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-81",
+                "rto_description" => "Tiruchirapalli East / Thiruverumbur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-82",
+                "rto_description" => "RTO Mayiladuthurai",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-83",
+                "rto_description" => "RTO VANIYAMBADI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-84",
+                "rto_description" => "RTO SRIVILLIPUDUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-85",
+                "rto_description" => "RTO Kundrathur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-86",
+                "rto_description" => "Erode West",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-87",
+                "rto_description" => "SRIPERUMBUDUR TAMILNADU",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-88",
+                "rto_description" => "Namakkal South",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-90",
+                "rto_description" => "Salem South",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-91",
+                "rto_description" => "Vridhachalam",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-92",
+                "rto_description" => "\"RTO",
+                "rto_zone" => " Tiruchend",
+            ),
+            array(
+                "rto_code" => "TN-93",
+                "rto_description" => "\"RTO",
+                "rto_zone" => " METTUR\"",
+            ),
+            array(
+                "rto_code" => "TN-94",
+                "rto_description" => "RTO ODDANCHATHIRAM",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-95",
+                "rto_description" => "RTO SIVAKASI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-96",
+                "rto_description" => "RTO KOVILPATTI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TN-99",
+                "rto_description" => "Coimbatore West",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TR-01",
+                "rto_description" => "WEST TRIPURA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TR-02",
+                "rto_description" => "UNA KOTI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TR-03",
+                "rto_description" => "GOMATI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TR-04",
+                "rto_description" => "\"DHALAI",
+                "rto_zone" => "TRIPURA\"",
+            ),
+            array(
+                "rto_code" => "TR-05",
+                "rto_description" => "NORTH TRIPURA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TR-06",
+                "rto_description" => "KHOWAI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TR-07",
+                "rto_description" => "SEPAHIJALA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TR-08",
+                "rto_description" => "SOUTH TRIPURA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TR-09",
+                "rto_description" => "AGARTALA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TR-10",
+                "rto_description" => "KAILASHAHAR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TS-01",
+                "rto_description" => "ADILABAD",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TS-02",
+                "rto_description" => "KARIMNAGAR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TS-03",
+                "rto_description" => "WARRANGAL",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TS-04",
+                "rto_description" => "KHAMMAM",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TS-05",
+                "rto_description" => "NALGONDA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TS-06",
+                "rto_description" => "MAHBUBNAGAR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TS-07",
+                "rto_description" => "ATTAPUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TS-08",
+                "rto_description" => "UPPAL KALAN",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TS-09",
+                "rto_description" => "Hyderabad Central (Khairtabad)",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TS-10",
+                "rto_description" => "Hyderabad North (Secunderabad)",
+                "rto_zone" => "35",
+            ),
+            array(
+                "rto_code" => "TS-11",
+                "rto_description" => "Hyderabad East (Malakpet)",
+                "rto_zone" => "35",
+            ),
+            array(
+                "rto_code" => "TS-12",
+                "rto_description" => "Hyderabad South (Kisanbagh)",
+                "rto_zone" => "35",
+            ),
+            array(
+                "rto_code" => "TS-13",
+                "rto_description" => "Hyderabad West (Tolichowki)",
+                "rto_zone" => "35",
+            ),
+            array(
+                "rto_code" => "TS-15",
+                "rto_description" => "Medak",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TS-16",
+                "rto_description" => "Nizamabad",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TS-17",
+                "rto_description" => "Kamareddy",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TS-18",
+                "rto_description" => "Nirmal",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TS-19",
+                "rto_description" => "Mancherial",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TS-20",
+                "rto_description" => "Asifabad (Komaram Bheem)",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TS-21",
+                "rto_description" => "JAGITYAL",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TS-22",
+                "rto_description" => "Peddapalli",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TS-23",
+                "rto_description" => "SIRCILLA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TS-24",
+                "rto_description" => "Warangal (Rural)",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TS-25",
+                "rto_description" => "Jayashankar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TS-26",
+                "rto_description" => "Mahabubabad",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TS-27",
+                "rto_description" => "Jangaon",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TS-28",
+                "rto_description" => "Bhadradri",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TS-29",
+                "rto_description" => "Suryapet",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TS-30",
+                "rto_description" => "Yadadri",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TS-31",
+                "rto_description" => "Nagarkurnool",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TS-32",
+                "rto_description" => "Wanaparthy",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TS-33",
+                "rto_description" => "Gadwal",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TS-34",
+                "rto_description" => "Vikarabad",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TS-35",
+                "rto_description" => "Medak",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "TS-36",
+                "rto_description" => "Siddipet",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UA-01",
+                "rto_description" => "RTO Almora",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UA-02",
+                "rto_description" => "RTO Bageshwar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UA-03",
+                "rto_description" => "Champawat",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UA-04",
+                "rto_description" => "RTO Nainital",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UA-05",
+                "rto_description" => "RTO Pithoragarh",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UA-06",
+                "rto_description" => "RTO Rudrapur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UA-07",
+                "rto_description" => "RTO Dehradun",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UA-08",
+                "rto_description" => "HARIDWAR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UA-09",
+                "rto_description" => "ARTO Rishikeshi",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UA-10",
+                "rto_description" => "ARTO Rishikesh",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UA-11",
+                "rto_description" => "RTO Rudarparyag",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UA-12",
+                "rto_description" => "RTO Pauri",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UA-13",
+                "rto_description" => "ARTO Kotdwar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UK-01",
+                "rto_description" => "ALMORA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UK-02",
+                "rto_description" => "BAGESWAR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UK-03",
+                "rto_description" => "Champawat",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UK-04",
+                "rto_description" => "HALDWANI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UK-05",
+                "rto_description" => "Pithoragarh",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UK-06",
+                "rto_description" => "RUDRAPUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UK-07",
+                "rto_description" => "RTO DHRADUN",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UK-08",
+                "rto_description" => "RTO HARIDWAR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UK-09",
+                "rto_description" => "RTO RISHIKESH",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UK-10",
+                "rto_description" => "RTO RISHIKESH 2",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UK-11",
+                "rto_description" => "RTO RUDRAPRAYAG",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UK-12",
+                "rto_description" => "RTO PAURI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UK-13",
+                "rto_description" => "RTO KOTDWAR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UK-14",
+                "rto_description" => "RTO RISHIKESH",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UK-15",
+                "rto_description" => "ARTO KOTHDWAR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UK-16",
+                "rto_description" => "RTO Vikas Nagar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UK-17",
+                "rto_description" => "RTO Roorkee",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UK-18",
+                "rto_description" => "RTO KASHIPUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UK-19",
+                "rto_description" => "RTO RAMNAGAR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-01",
+                "rto_description" => "Almora",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-02",
+                "rto_description" => "Nanital",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-03",
+                "rto_description" => "Pitharogarh",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-04",
+                "rto_description" => "Udham Singh Nagar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-05",
+                "rto_description" => "Chamoli",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-06",
+                "rto_description" => "Pauri",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-07",
+                "rto_description" => "UTTARAPARADESH",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-08",
+                "rto_description" => "RTO Hardwar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-09",
+                "rto_description" => "RTO UTTARKASHI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-10",
+                "rto_description" => "RTO Hardwar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-11",
+                "rto_description" => "RTO Saharanpur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-12",
+                "rto_description" => "Muzaffarnagar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-13",
+                "rto_description" => "RTO Bulandshahr",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-14",
+                "rto_description" => "RTO Ghaziabad",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-15",
+                "rto_description" => "RTO Meerut",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-16",
+                "rto_description" => "RTO Noida",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-17",
+                "rto_description" => "BAGHPAT",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-19",
+                "rto_description" => "SHAMLI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-20",
+                "rto_description" => "RTO Bijnor",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-21",
+                "rto_description" => "Moradabad",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-22",
+                "rto_description" => "Rampur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-23",
+                "rto_description" => "J.P.Nagar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-24",
+                "rto_description" => "RTO BADAUN",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-25",
+                "rto_description" => "Bareilly",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-26",
+                "rto_description" => "Pilibhit",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-27",
+                "rto_description" => "ARTO Shahjahanpur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-28",
+                "rto_description" => "RTO KATHGODAM",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-29",
+                "rto_description" => "Tanakpur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-30",
+                "rto_description" => "Hardoi",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-31",
+                "rto_description" => "Kheri",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-32",
+                "rto_description" => "Lucknow",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-33",
+                "rto_description" => "Raebareli",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-34",
+                "rto_description" => "Sitapur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-35",
+                "rto_description" => "Unnao",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-36",
+                "rto_description" => "CSM NAGAR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-37",
+                "rto_description" => "RTO HAPUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-38",
+                "rto_description" => "RTO NEW DISTRICT  SAMBHAL",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-40",
+                "rto_description" => "Bahraich",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-41",
+                "rto_description" => "Barabanki",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-42",
+                "rto_description" => "Faizabad",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-43",
+                "rto_description" => "Gonda",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-44",
+                "rto_description" => "Sultanpur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-45",
+                "rto_description" => "AMBEDKAR NAGAR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-46",
+                "rto_description" => "SHRAVASTI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-47",
+                "rto_description" => "Balrampur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-50",
+                "rto_description" => "Azamgarh",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-51",
+                "rto_description" => "Basti",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-52",
+                "rto_description" => "Deoria",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-53",
+                "rto_description" => "Gorakhpur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-54",
+                "rto_description" => "Mau",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-55",
+                "rto_description" => "Siddarthnagar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-56",
+                "rto_description" => "Maharajganj",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-57",
+                "rto_description" => "Padrauna",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-58",
+                "rto_description" => "Sant Kabir Nagar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-60",
+                "rto_description" => "Ballia",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-61",
+                "rto_description" => "Ghazipur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-62",
+                "rto_description" => "Jaunapur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-63",
+                "rto_description" => "Mirzapur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-64",
+                "rto_description" => "Sonbhadra",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-65",
+                "rto_description" => "Varanasi",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-66",
+                "rto_description" => "Bhadohi",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-67",
+                "rto_description" => "Chandaului",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-70",
+                "rto_description" => "ALLAHABAD",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-71",
+                "rto_description" => "Fatehpur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-72",
+                "rto_description" => "Pratapgarh",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-73",
+                "rto_description" => "Kaushambi",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-74",
+                "rto_description" => "Kannauj",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-75",
+                "rto_description" => "ARTO Etawah",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-76",
+                "rto_description" => "Farrukhabad",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-77",
+                "rto_description" => "Kanpur Dehat",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-78",
+                "rto_description" => "Kanpur City",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-79",
+                "rto_description" => "AURAIYA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-80",
+                "rto_description" => "RTO Agra",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-81",
+                "rto_description" => "RTO Aligarh",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-82",
+                "rto_description" => "Etah",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-83",
+                "rto_description" => "ARTO Firozabad",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-84",
+                "rto_description" => "MAINPURI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-85",
+                "rto_description" => "RTO Mathura",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-86",
+                "rto_description" => "Mahamaya Nagar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-87",
+                "rto_description" => "KASHI RAM NAGAR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-90",
+                "rto_description" => "Banda",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-91",
+                "rto_description" => "Hamirpur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-92",
+                "rto_description" => "Jalaun",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-93",
+                "rto_description" => "Jhansi",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-94",
+                "rto_description" => "Lalitpur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-95",
+                "rto_description" => "Mahoba",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "UP-96",
+                "rto_description" => "Chatrapati Shahuji Maharaj Nagar",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB - 35",
+                "rto_description" => "RTO KHARAGPUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB - 36",
+                "rto_description" => "RTO KHARAGPUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB - 49N",
+                "rto_description" => "RTO GHATAL",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB - 50N",
+                "rto_description" => "RTO GHATAL",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-01",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-02",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-03",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-04",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-05",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-06",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-07",
+                "rto_description" => "RTO-BELTALA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-08",
+                "rto_description" => "\"RTO",
+                "rto_zone" => " P.V.D. Ko",
+            ),
+            array(
+                "rto_code" => "WB-10",
+                "rto_description" => "\"RTO",
+                "rto_zone" => "West Benga",
+            ),
+            array(
+                "rto_code" => "WB-11",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-12",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-14",
+                "rto_description" => "HOWRAH",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-15",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-16",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-17",
+                "rto_description" => "Distric RTO Hoghly",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-18",
+                "rto_description" => "Hooghly",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-19",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-20",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-22",
+                "rto_description" => "Public Vehicle Department(ALIPUR)",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-23",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-24",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-25",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-26",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-27",
+                "rto_description" => "RTO BONGAON",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-28",
+                "rto_description" => "RTO BONGAON",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-29",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-30",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-31",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-32",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-33",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-34",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-36",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-37",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-38",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-39",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-40",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-41",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-42",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-43",
+                "rto_description" => "KALNA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-44",
+                "rto_description" => "ASANSOL",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-45",
+                "rto_description" => "RTO RAMPURHAT",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-46",
+                "rto_description" => "Rampurhat",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-47",
+                "rto_description" => "\"Bolpur RTO",
+                "rto_zone" => " Dist.Birb",
+            ),
+            array(
+                "rto_code" => "WB-48",
+                "rto_description" => "Bolpur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-49",
+                "rto_description" => "RTO JHARGRAM",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-49N",
+                "rto_description" => "RTO GHATAL",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-50",
+                "rto_description" => "RTO JHARGRAM",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-50N",
+                "rto_description" => "RTO GHATAL",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-51",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-52",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-53",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-54",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-55",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-56",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-57",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-58",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-59",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-60",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-61",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-62",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-63",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-64",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-65",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-66",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-67",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-68",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-69",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-70",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-71",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-72",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-73",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-74",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-76",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-77",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-78",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-79",
+                "rto_description" => "Public Vehicle Department",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-81",
+                "rto_description" => "RTO Raghunathpur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-82",
+                "rto_description" => "RTO Raghunathpur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-83",
+                "rto_description" => "CHNACHAL MALDA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-84",
+                "rto_description" => "RTO Chanchal",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-85",
+                "rto_description" => "MATHABHANGA (RTA CODE FOR COMMERCIAL VEHICLE)",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-86",
+                "rto_description" => "MATHABHANGA (RTA CODE FOR PRIVATE VEHICLE)",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-87",
+                "rto_description" => "BISHNUPUR (RTA CODE FOR COMMERCIAL VEHICLE)",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-88",
+                "rto_description" => "BISHNUPUR/BANKURA",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-89",
+                "rto_description" => "RTO KALYANI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-90",
+                "rto_description" => "RTO KALYANI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-91",
+                "rto_description" => "RTO KALYANI",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-92",
+                "rto_description" => "RTO ISLAMPUR/UTTAR DIANJPUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-93",
+                "rto_description" => "Jangipur",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-94",
+                "rto_description" => "Jangipur (Murshidabad)",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-95",
+                "rto_description" => "Baruipore",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-96",
+                "rto_description" => "RTO BARUIPUR",
+                "rto_zone" => "36",
+            ),
+            array(
+                "rto_code" => "WB-98",
+                "rto_description" => "\"Diamond Harbour",
+                "rto_zone" => "Dist -24 P",
+            ),
+            array(
+                "rto_code" => "WB17",
+                "rto_description" => "HOOGHLY",
+                "rto_zone" => "36",
+            ),
+            ]
+
+        );
+    }
+}

@@ -1,0 +1,27 @@
+.RegNoPage {
+	input::placeholder {
+		color: #d0d0d0 !important;
+	}
+	input::-webkit-input-placeholder {
+		color: #d0d0d0 !important;
+	}
+	input:-moz-placeholder {
+		
+		color: #d0d0d0 !important;
+		opacity: 1;
+	}
+	input::-moz-placeholder {
+	
+		color: #d0d0d0 !important;
+		opacity: 1;
+	}
+	input:-ms-input-placeholder {
+		color: #d0d0d0 !important;
+	}
+	input::-ms-input-placeholder {
+		color: #d0d0d0 !important;
+	}
+	input::placeholder {
+		color: #d0d0d0 !important;
+	}
+}

@@ -1,0 +1,128 @@
+body div.content-wrapper{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+body #main-sidebar-div ul.nav li.nav-item {
+    font-size: 12px;
+}
+ 
+a.nav-link{
+    padding-left:5px;
+}
+
+.text-light {
+    /* color: #f8f9fa !important; */
+    -webkit-filter: invert(75%);
+    filter: invert(75%);
+}
+
+.main-content {
+    margin-left: 140px;
+    padding: 10px;
+}
+
+.table-container {
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.add-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 4px 8px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 4px;
+}
+
+.btn {
+    font-size: 11px;
+    padding: .25rem .5rem;
+}
+
+.form-control {
+    font-size: 11px;
+    height: calc(1.5rem + 2px);
+}
+
+.card {
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    /* padding: 4px 8px; */
+    font-size: 12px;
+}
+
+.modal-content {
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.modal-body {
+    padding: 10px;
+}
+
+.required_field::after {
+    content: '*';
+    color: red;
+}
+
+.table th, .table td {
+   vertical-align: middle;
+}
+
+.table th {
+   font-size: 12px;
+   padding: 0.5rem;
+}
+.table td{
+    padding: 0.25rem;
+    /* padding: 0px;*/
+    border-top: 1px solid #dee2e6;
+    font-size: 12px;
+}
+i.fa-copy {
+    margin-right: 0.25rem;
+}
+
+.no-wrap {
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.btn-primary {
+    background-color: #005f6b;
+    border-color: #005f6b;
+}
+.content-header{
+    padding: 0px ;
+}
+.dataTables_filter{
+    margin-bottom: -23px;
+}
+
+div.dataTables_wrapper div.dataTables_filter {
+    text-align: right;
+    /* margin-top: -35px; */
+}
+
+table.dataTable>thead .sorting:before, table.dataTable>thead .sorting:after, table.dataTable>thead .sorting_asc:before, table.dataTable>thead .sorting_asc:after, table.dataTable>thead .sorting_desc:before, table.dataTable>thead .sorting_desc:after, table.dataTable>thead .sorting_asc_disabled:before, table.dataTable>thead .sorting_asc_disabled:after, table.dataTable>thead .sorting_desc_disabled:before, table.dataTable>thead .sorting_desc_disabled:after {
+    /*bottom: 0.33rem;*/
+}
+
+footer.main-footer {
+    font-size : 10px;
+    padding:5px 10px;
+}

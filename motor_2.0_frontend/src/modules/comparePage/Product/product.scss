@@ -1,0 +1,301 @@
+// .compare-page-product {
+// 	width: 276px;
+// 	position: relative;
+// 	float: left;
+// 	text-align: center;
+// 	margin-right: 11px;
+// 	font-family: "Inter-Regular";
+// 	font-size: 14px;
+// 	line-height: 18px;
+// 	color: #333333;
+
+// 	/* background-color: #f7fdff; */
+// 	-webkit-transition: opacity 0.3s, visibility 0.3s, -webkit-transform 0.3s;
+// 	-moz-transition: opacity 0.3s, visibility 0.3s, -moz-transform 0.3s;
+// 	transition: opacity 0.3s, visibility 0.3s, transform 0.3s;
+
+// 	.planSubOptionVal {
+// 		margin-bottom: 18px;
+// 	}
+
+// 	&:last-child {
+// 		margin-right: 0;
+// 	}
+
+// 	&__logo-wrap {
+// 		display: inline-flex;
+// 		height: 60px;
+// 		//width: 60px;
+// 		margin: 24px auto;
+// 	}
+
+// 	& .productRecLabel {
+// 		width: 275px;
+// 		position: absolute;
+// 		top: -40px;
+// 		left: -1px;
+// 		background: #107591;
+// 		font-family: "Inter-SemiBold";
+// 		font-size: 12px;
+// 		line-height: 24px;
+// 		color: #fff;
+// 		text-align: center;
+// 		width: 275px;
+// 		padding: 8px 0;
+// 		border-radius: 2px 20px 0 0;
+// 	}
+
+// 	& .top-info {
+// 		width: 272px;
+// 		& img {
+// 			height: 80px;
+// 			position: relative;
+// 			//	transform: translateX(-20%);
+// 			width: auto;
+// 			// margin: 24px 0;
+// 			margin: auto;
+// 		}
+// 		& .planName {
+// 			font-family: "Inter-SemiBold";
+// 			font-size: 14px;
+// 			line-height: 20px;
+// 			color: #333;
+// 			margin-bottom: 22px;
+// 		}
+// 		& .planAmt {
+// 			font-family: "Inter-Regular";
+// 			font-size: 20px;
+// 			line-height: 25px;
+// 			color: #333333;
+// 			margin-bottom: 8px;
+// 		}
+// 		& .recPlanBuyBtn {
+// 			height: 40px;
+// 			width: 148px;
+
+// 			border-radius: 4px;
+// 			outline: none;
+// 			font-family: "Inter-SemiBold";
+// 			font-size: 12px;
+// 			line-height: 24px;
+// 			border-radius: 30px;
+// 		}
+// 	}
+
+// 	&.productRec .recPlanBuyBtn {
+// 		width: 156px;
+// 	}
+
+// 	&--1 {
+// 		width: 850px;
+
+// 		& .productRecLabel,
+// 		& .top-info {
+// 			width: 849px;
+// 		}
+// 	}
+
+// 	&--2 {
+// 		width: 419.5px;
+
+// 		& .productRecLabel,
+// 		& .top-info {
+// 			width: 415px;
+// 		}
+// 	}
+
+// 	& .cd-features-list {
+// 		padding: 0;
+// 		list-style: none;
+
+// 		& li {
+// 			padding-top: 95px;
+// 			font-size: 12px;
+
+// 			& .planSubOptionValue {
+// 				padding-bottom: 0;
+// 				min-height: 39px;
+// 				overflow: hidden;
+
+// 				&:last-child {
+// 					padding-bottom: 0;
+// 				}
+// 			}
+// 		}
+// 	}
+
+// 	@media screen and (min-width: 768px) and (max-width: 1177px) {
+// 		width: 177.333px !important;
+// 		.addonValueText {
+// 			font-size: 10px !important;
+// 		}
+// 		& .productRecLabel,
+// 		& .top-info {
+// 			// width: 176.333px !important;
+// 			width: 173.5px;
+// 			& img {
+// 				height: 60px;
+// 			}
+// 		}
+
+// 		&--1 {
+// 			width: 554px !important;
+
+// 			& .productRecLabel,
+// 			& .top-info {
+// 				width: 553px !important;
+// 			}
+// 		}
+
+// 		&--2 {
+// 			width: 271.5px !important;
+
+// 			& .productRecLabel,
+// 			& .top-info {
+// 				width: 267.5px !important;
+// 			}
+// 		}
+// 	}
+
+// 	@media screen and (max-width: 767px) {
+// 		width: 50% !important;
+// 		margin-right: 0;
+// 		border: none;
+// 		background: none;
+// 		.addonValueText {
+// 			font-size: 9px !important;
+// 		}
+
+// 		&:nth-child(3) {
+// 			display: none;
+// 		}
+
+// 		& .productRecLabel {
+// 			display: none;
+// 		}
+// 		&__logo-wrap {
+// 			width: 34px;
+// 			height: 34px;
+// 			margin: 8px auto;
+// 		}
+// 		& .top-info {
+// 			width: 99.672% !important;
+// 			height: 220px !important;
+// 			& img {
+// 				width: auto;
+// 				height: 40px;
+// 				transform: translateX(-30%);
+// 			}
+// 			& .planName {
+// 				font-size: 11px;
+// 				line-height: 16px;
+// 				/* border-top: 1px solid #e3e4e8; */
+// 				margin-top: 1px;
+// 				padding-top: 10px;
+// 				height: 44px;
+// 				max-height: 44px;
+// 				overflow: hidden;
+// 				margin-bottom: 0;
+// 			}
+// 			& .planAmt {
+// 				font-size: 14px;
+// 				line-height: 18px;
+// 				margin-bottom: 4px;
+// 			}
+// 		}
+// 		&.productRec .recPlanBuyBtn,
+// 		& .top-info .recPlanBuyBtn {
+// 			width: 80% !important;
+// 		}
+// 		& .cd-features-list {
+// 			border-top: none;
+// 			& li {
+// 				font-size: 11px;
+// 				line-height: 15px;
+// 				color: #333;
+// 				font-family: "Inter-Medium";
+// 				padding-top: 72px;
+// 				padding-bottom: 31px;
+// 				border-bottom: none;
+// 				& .planSubOptionValue {
+// 					height: 28px;
+// 					margin-bottom: 8px !important;
+// 				}
+// 				&.features-list-Discount {
+// 					padding-top: 60px !important;
+// 				}
+// 				&.features-list-top-li {
+// 					padding-top: 60px !important;
+// 				}
+// 			}
+// 		}
+// 	}
+// }
+// .compare-page-product {
+// 	/* background: #d0e438; */
+// }
+// .compare-products-list .top-info {
+// 	/* background: #fff; */
+// }
+// .compare-page-product .cd-features-list li .planSubOptionValue {
+// 	font-size: 14px;
+// 	@media screen and (min-width: 768px) and (max-width: 1177px) {
+// 		font-size: 10px;
+// 	}
+// }
+// .compare-page-product .top-info .planName {
+// 	/* color: #fff; */
+// 	margin-top: 10px;
+// }
+
+// .check {
+// 	color: green;
+// 	font-size: 1.5rem;
+// }
+// .cross {
+// 	color: red;
+// 	font-size: 1.5rem;
+// }
+
+// @media (max-width: 768px) {
+// 	.longNameText {
+// 		min-height: 60px !important;
+// 		font-size: 9px !important;
+// 		padding: 0px 10px 0px 0px !important;
+// 	}
+// 	.compare-page-product {
+// 		/* box-shadow: none;
+//         border-radius: 0px;
+//         background: #fff; */
+// 	}
+// 	.compare-products-list .top-info {
+// 		/* border-bottom: none;
+//         border-radius: 0px;
+//         background: #fff!important; */
+// 	}
+// 	.compare-page-product .top-info .planName {
+// 		color: black;
+// 		margin-top: 4px;
+// 	}
+// 	.compare-page-product .top-info .recPlanBuyBtn {
+// 		font-size: 8px;
+// 		width: 70px;
+// 		height: 25px;
+// 		margin-top: 15px;
+// 	}
+// 	.compare-page-product .cd-features-list li .planSubOptionValue {
+// 		font-size: 9px;
+// 	}
+// 	.check {
+// 		font-size: 1rem;
+// 	}
+// 	.cross {
+// 		font-size: 1rem;
+// 	}
+// }
+// .newProductList {
+// 	padding: "10px 32px";
+// 	max-height: "400px";
+// 	overflow: "scroll";
+// 	overflow-x: "hidden !important";
+// }

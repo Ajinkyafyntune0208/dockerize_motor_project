@@ -1,0 +1,148 @@
+.customTooltip {
+  font-family: "roboto";
+  font-size: 14px;
+  border-radius: 0 !important;
+  padding: 16px 12px !important;
+  width: 275px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  border-radius: 10px;
+  color: #000;
+  border-radius: 5px !important;
+  padding: 10px 8px;
+  border: 1px solid #000;
+  z-index: 99999999999999999999999999 !important;
+  & a {
+    color: #000;
+  }
+  li {
+    line-height: 18px;
+  }
+  h3 {
+    padding: 0 8px 4px 8px;
+    font-family: "roboto";
+    margin: 0;
+    text-align: left;
+    font-size: 14px;
+    border-bottom: 1px solid #ebebeb;
+    border-radius: 5px 5px 0 0;
+    color: #000;
+  }
+  div {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-family: "roboto";
+    font-size: 10px;
+    text-align: left;
+    color: #000;
+    box-sizing: border-box;
+    padding: 2px 6px 0 6px;
+  }
+  p {
+    font-size: 12px;
+    padding: 2px 8px;
+  }
+  h4 {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 0 8px 4px 8px;
+    font-family: "roboto";
+    border-bottom: 1px solid #000;
+    color: #000;
+  }
+}
+
+.error_tooltip {
+  box-shadow: 0 8px 8px -5px rgba(241, 245, 242, 0.952), 0 10px 10px -5px grey !important;
+  border-radius: 5px !important;
+}
+
+.form1__tooltip {
+  height: 150px;
+  //	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  line-height: 18px;
+}
+
+.tooltipLeft,
+.tooltipRight {
+  &::after {
+    border-top: 15px solid transparent !important;
+    border-bottom: 15px solid transparent !important;
+  }
+}
+
+.tooltipTop,
+.toolTipBottom {
+  &::after {
+    border-left: 15px solid transparent !important;
+    border-right: 15px solid transparent !important;
+  }
+}
+
+.tooltipTop::after {
+  bottom: -12px !important;
+  left: 48% !important;
+  border-top-width: 12px !important;
+}
+
+.tooltipRight::after {
+  border-right-width: 15px !important;
+  left: -11px !important;
+  top: 43% !important;
+}
+
+.tooltipLeft::after {
+  border-left-width: 15px !important;
+  right: -11px !important;
+  top: 43% !important;
+}
+.from1__arrowTop {
+  &::after {
+    border-right-width: 15px !important;
+    top: 4% !important;
+  }
+}
+
+.from1__arrowBottom {
+  &::after {
+    border-right-width: 15px !important;
+    top: 83% !important;
+  }
+}
+
+.customTooltip.__react_component_tooltip.show {
+  opacity: 1 !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .customTooltip {
+    width: 250px;
+    // max-width: 80% !important;
+    // padding: 5px !important;
+    z-index: 99999999999999999999999999 !important;
+    &::after {
+      display: none;
+    }
+  }
+  .customTooltip.__react_component_tooltip.show {
+    left: 10px !important;
+  }
+  // .quotePageTooltip {
+  //   max-width: 80% !important;
+  //   min-width: 70% !important;
+
+  //   .customTooltip {
+  //     width: unset;
+  //     max-width: 80% !important;
+  //     &::after {
+  //       display: none;
+  //     }
+  //   }
+  .quotePageTooltip {
+    // max-width: 80% !important;
+    // min-width: 70% !important;
+    &::after {
+      display: block;
+    }
+  }
+  // }
+}

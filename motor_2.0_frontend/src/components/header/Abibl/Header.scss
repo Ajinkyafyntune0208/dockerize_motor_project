@@ -1,0 +1,212 @@
+//top header
+.navbarAbibl {
+  padding: 0 40px;
+  background: #c7222a;
+  align-items: center;
+  height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+   &__logo {
+    position: relative;
+    top: 2px;
+  }
+   &__cart-dropdown {
+    right: -30px;
+    top: 29px;
+    padding: 40px 35px;
+    min-width: 300px;
+    border: 1px solid #f8f8f8;
+  }
+
+   &__cartBtn {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    display: block;
+    padding: 0;
+    cursor: pointer;
+    background: transparent;
+     &__item-count {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background: #ff3612;
+      line-height: 15px;
+      text-align: center;
+      font-size: 9px;
+      color: #fff;
+      right: -36px;
+      top: -4px;
+    }
+  }
+   &__nav {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    position: relative;
+    top: -8px;
+    left: -46px;
+    & li {
+      margin: 0 20px;
+      display: block;
+      font-size: 15px;
+      text-transform: capitalize;
+      color: #fff;
+    }
+  }
+   &__toggler {
+    display: none;
+    float: right;
+    font-size: 30px;
+    padding: 4px 0;
+    margin-bottom: 9px;
+    color: #fff;
+  }
+}
+
+.flaticon-setup {
+  &:after {
+    font-family: Flaticon;
+    font-size: inherit;
+    font-style: normal;
+    color: inherit;
+  }
+}
+
+@media (max-width: 1140px) {
+  .navbarAbibl {
+    &__nav {
+      display: none;
+    }
+    &__cartBtn {
+      position: absolute;
+      right: 61px;
+    }
+    &__toggler {
+      display: block;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .hide-in-tab {
+    display: none;
+  }
+}
+
+//Sub-Header
+.secondaryNavbar {
+  background: #d68d87;
+  height: 44px;
+  display: flex;
+  align-items: center;
+
+  &__header {
+    color: #fff;
+    font-size: 26px !important;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "pf_handbook_probold" !important;
+    // padding-left: 3.7%;
+    padding-left: 39px;
+    // margin-top: 6px;
+  }
+  &__container {
+    display: flex;
+    position: absolute;
+    left: 400px;
+    @media (max-width: 1250px) {
+      left: 300px;
+    }
+  }
+  &__header1 {
+    font-size: 15px !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    padding: 0 20px !important;
+  }
+  &__infoList {
+    & li {
+      display: inline-block;
+      line-height: 28px;
+      padding: 0 4vw;
+    }
+  }
+}
+
+//dropdown
+
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+    z-index: 9999 !important;
+    background-color: #fff;
+    border-radius: 0;
+    border: none;
+    height: unset;
+    display: block;
+    left: -12px;
+    opacity: 0;
+    padding: 18px 0;
+    right: 0;
+    top: 51px;
+    visibility: hidden;
+    min-width: 230px;
+    border: 1px solid #f5f5f5;
+    background: #ffffff;
+    margin: 0;
+    position: absolute;
+    transform: scale(1,0);
+    transform-origin: 0 0;
+    transition: all 0.3s ease-in-out;
+    width: 290px;
+    & a {
+      // text-align: left;
+      // padding: 3px 37px 0 0;
+      &:hover {
+        color: #FF424C;
+    background: transparent;
+      }
+    }
+}
+.dropdown1:hover{
+  cursor: pointer;
+}
+.dropdown1:hover .dropdown-content {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+   & li {
+     color: black;
+    //  margin: 9px 20px;
+   }
+}
+
+ .dropdown-item {
+  font-size: 16px;
+  line-height: 45px;
+  text-transform: capitalize;
+  color: #4B4C51 !important;
+  padding: 0.25rem 0.5rem !important;
+  // padding: 0 0 0 25px;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+
+.dropdown-item:hover {
+  color: #FF424C !important;
+  background: transparent;
+}
+.fa-files-o:hover{
+  cursor: pointer;
+}

@@ -1,0 +1,238 @@
+/* viewlabel.css */
+
+body div.content-wrapper{
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 6px;
+}
+.table th:first-child,
+.table td:first-child {
+    width: 20px; /* Adjust the width of the first column */
+    min-width: 20px; /* Ensure a minimum width for the first column */
+    text-align: center; /* Center-align content in the first column */
+    font-size: 10px; /* Adjust the font size for the first column */
+    padding: 6px; /* Adjust padding for the first column cells */
+}
+.section {
+    margin: 6px;
+}
+
+.btn {
+    margin-bottom: 6px;
+    font-size: 10px; /* Adjust button font size */
+    padding: 4px 8px;
+}
+
+.table-container {
+    background-color: #fff;
+    padding: 6px;
+    border-radius: 4px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 6px;
+    font-size: 10px; /* Adjust table font size */
+}
+
+.table th, .table td {
+    padding: 6px;
+    border: 1px solid #dee2e6;
+    text-align: left;
+    font-size: 10px; /* Adjust cell font size */
+    text-align: center;
+}
+
+.table th {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f2f2f2;
+}
+
+.table-bordered th, .table-bordered td {
+    border: 1px solid #dee2e6;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.table .company, .table .vehicle, .table .business, .table .attribute {
+    text-transform: capitalize;
+    font-size: 10px; /* Adjust cell content font size */
+}
+
+#save-btn a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#save-btn {
+    display: inline-block;
+    margin-bottom: 25px;
+    font-size: 10px; /* Adjust button font size */
+    padding: 4px 8px;
+}
+
+@media (max-width: 768px) {
+    .table-container {
+        padding: 3px;
+    }
+
+    .table th, .table td {
+        padding: 3px;
+        font-size: 8px; /* Adjust table font size for smaller screens */
+    }
+}
+
+.btn-primary {
+    background-color: #005f6b;
+    border-color: #005f6b;
+    font-size: 10px; /* Adjust button font size */
+}
+
+/* viewlabel.css */
+
+.dataTables_wrapper .dataTables_filter input,
+.dataTables_wrapper .dataTables_length select,
+.dataTables_wrapper .dataTables_filter select {
+    height: 29px; /* Adjust the height of the input/select */
+    padding: 2px 8px; /* Adjust the padding inside the input/select */
+    font-size: 12px; /* Adjust the font size */
+    width: auto; /* Allow input fields to take the necessary width */
+}
+
+
+.dataTables_wrapper .dataTables_filter {
+    margin-bottom: 1rem;
+}
+
+.dataTables_length label {
+    display: flex;
+    align-items: center;
+}
+
+.dataTables_length select {
+    margin-left: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0.2em 0.5em;
+}
+
+.dataTables_length select:after {
+    display: none;
+}
+
+.dataTables_length select:before {
+    display: none;
+}
+/* viewlabel.css */
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    font-size: 15px; /* Adjust the font size */
+    line-height: 1.5; /* Adjust the line height for readability */
+    margin-bottom: 4px; /* Adjust the margin between list items */
+}
+
+ul li strong {
+    font-weight: bold;
+    margin-right: 6px; /* Adjust spacing between label and value */
+}
+.table th:nth-child(2),
+.table td:nth-child(2),
+.table th:nth-child(3),
+.table td:nth-child(3),
+.table th:nth-child(4),
+.table td:nth-child(4) {
+    width: 139.516px; /* Set the width for columns 2, 3, and 4 */
+    min-width: 139.516px; /* Ensure a minimum width */
+    text-align: center; /* Center-align content in these columns */
+    font-size: 10px; /* Adjust the font size for these columns */
+    padding: 6px; /* Adjust padding for these columns */
+}
+.table td:nth-child(5) {
+    max-width: 250px; /* Adjust this value as needed */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+div.dataTables_wrapper div.dataTables_length select {
+    width: 46px;
+    display: inline-block
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+    .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-bottom: 25px;
+    }
+    .col {
+    position: relative;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 10;
+    flex: 1 0 0%;
+    border: 1px solid black;
+    box-sizing: border-box; 
+    }
+    .w-100 {
+    width: 100% !important;
+    }
+    .formula-data {
+        padding: 2px;
+        height: 41px;
+        text-align: center;
+        white-space: nowrap; 
+        overflow: scroll;
+    }
+    .content-header {
+        padding: 0px .5rem;
+    }
+    .dataTables_wrapper .dataTables_filter {
+        margin-bottom: 0rem;
+    }   
+    .box {
+        border: 1px solid #ddd;
+        padding: 10px;
+        background-color: #f9f9f9;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        font-size: 0.9rem; 
+        margin-bottom: 10px; 
+    }
+    
+    .box p {
+        margin-bottom: 0; 
+    }
+    
+    .box strong {
+        font-size: 1rem;
+    } 
+    .modal-content{
+        width: 500px;
+    }
+    .modal-body{
+        padding-top: 0px;
+    }

@@ -1,0 +1,34 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class AddColmnAgentIcRelationship extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::table('agent_ic_relationship', function (Blueprint $table) {
+            $table->string('hdfc_ergo_code')->nullable();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        if (Schema::hasColumn('agent_ic_relationship', 'hdfc_code')) {
+            Schema::table('agent_ic_relationship', function (Blueprint $table) {
+                $table->dropColumn('hdfc_ergo_code');
+            });
+        }
+    }
+}

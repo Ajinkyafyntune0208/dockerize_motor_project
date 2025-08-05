@@ -1,0 +1,89 @@
+$color-primary: #bdd400;
+
+.nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.nav-tabs > li {
+  width: 33.33%;
+  text-align: center;
+  @media (max-width: 992px) {
+    width: 28.33%;
+  }
+}
+.nav-tabs > li {
+  float: left;
+  margin-bottom: -1px;
+}
+.nav > li {
+  position: relative;
+  display: block;
+}
+.nav > li > a:focus,
+.nav > li > a:hover,
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  background: none;
+}
+
+.nav-tabs > li > a,
+.nav-tabs > li > a:hover,
+.nav-tabs > li > a:focus {
+  font-size: 16px;
+  line-height: 20px;
+  color: #333;
+  padding: 20px 0;
+  border: 0;
+  @media (max-width: 992px) {
+    font-size: 8px;
+  }
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  color: #fff;
+  cursor: default;
+  background-color: #fff;
+  // border: 1px solid #ddd;
+  // border-bottom-color: transparent;
+}
+.nav > li > a {
+  position: relative;
+  display: block;
+  color: #858585 !important;
+}
+.btn-group-vertical > .btn-group:after,
+.btn-toolbar:after,
+.clearfix:after,
+.container-fluid:after,
+.container:after,
+.dl-horizontal dd:after,
+.form-horizontal .form-group:after,
+.modal-footer:after,
+.modal-header:after,
+.nav:after,
+.navbar-collapse:after,
+.navbar-header:after,
+.navbar:after,
+.pager:after,
+.panel-body:after,
+.row:after {
+  clear: both;
+}
+.premiumBreakupPop {
+  margin: 0 auto;
+}
+a {
+  color: #020303;
+  text-decoration: none;
+  background-color: transparent;
+}
+.hideDiv {
+  display: none;
+}
+
+.showDiv {
+  display: block;
+}

@@ -1,0 +1,9 @@
+/* bootstrap btn */
+.linkLine .btn:focus {
+	box-shadow: none;
+}
+
+.capstonesel .btn-outline-success {
+	border: solid #81919d  1px;
+	color: #81919d ;
+}
